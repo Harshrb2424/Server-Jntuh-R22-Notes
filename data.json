@@ -1,0 +1,40 @@
+{
+    "yr2Sem1": "Academic Calender",
+    "theorySubjects": [
+        {
+            "subjectName": "M3",
+            "info": [
+                {
+                    "unitName": "UNIT 1 Number Theory",
+                    "info": [
+                        {
+                            "topic": "Greatest Common Divisors and Prime Factorization",
+                            "subtopics": [
+                                "Greatest common divisors",
+                                "The Euclidean algorithm",
+                                "The fundamental theorem of arithmetic",
+                                "Factorization of integers",
+                                "Fermat numbers"
+                            ],
+                            "link": ""
+                        },
+                        {
+                            "topic": "Congruences",
+                            "subtopics": [
+                                "Introduction to congruences",
+                                "Linear congruences",
+                                "The Chinese remainder theorem",
+                                "Systems of linear congruences"
+                            ],
+                            "link": ""
+                        }
+                    ],
+                    "otherLinks": [
+                        {"name": "", "link": ""},
+                        {"name": "", "link": ""}
+                    ]
+                }
+            ]
+        }
+    ]
+}
