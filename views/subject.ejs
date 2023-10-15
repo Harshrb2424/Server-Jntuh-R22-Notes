@@ -1,5 +1,3 @@
-
-
         <!-- ? Year 1 sub 1: <%= subject.code %> -->
         <div class="card">
           <div class="card-header" id="heading-<%= subject.code %>">
@@ -15,7 +13,6 @@
 
               <% subject.info.forEach(units => { %>
                 <%- include( 'units.ejs', {units: units, code: subject.code} ) %>
-               
                 <%- include('unitLinks.ejs', {link: units.link, code: subject.code, Ucode: units.code}) %>
                 <% }) %>
                 <br>
@@ -23,14 +20,9 @@
                   <h2>Other Resources</h2>
                 <% } %>
                 <% subject.otherLinks.forEach(link => { %>
-                 
                   <%- include('otherLinks.ejs', {link: link}) %>
                 <% }) %>
             </div>
           </div>
         </div>
-        <!-- ! Year 1 sub 1: <%= subject.code %> END -->
-
-  
-
-         
+        <!-- ! Year 1 sub 1: <%= subject.code %> END -->         

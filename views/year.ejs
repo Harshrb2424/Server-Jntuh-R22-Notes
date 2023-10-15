@@ -5,8 +5,6 @@
       <%= year.year %>
     </a>
   </p>
-  
   <% year.sems.forEach(sem => { %>
     <%- include('sem.ejs', {sem: sem, yr: year.year.replaceAll(' ', '-')}) %>
     <% }) %>
-

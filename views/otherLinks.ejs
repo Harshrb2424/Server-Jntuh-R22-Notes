@@ -1,4 +1,3 @@
-
 <% if (link.link) { %>
     <h4><%= link.name %></h4>
     <a class="btn btn-outline-primary" data-toggle="collapse" href="#collapse-<%= link.name.replaceAll(' ', '-') %>" role="button" aria-expanded="false"
@@ -14,7 +13,6 @@
     </p>
     <div class="collapse" id="collapse-<%= link.name.replaceAll(' ', '-') %>">
         <div class="card card-body">
-            
             <iframe src="<%= link.link %>#toolbar=0" width="50%" height="500"></iframe>
         </div>
     </div>
