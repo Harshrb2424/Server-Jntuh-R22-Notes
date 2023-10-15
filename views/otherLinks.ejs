@@ -1,0 +1,21 @@
+
+<% if (link.link) { %>
+    <h4><%= link.name %></h4>
+    <a class="btn btn-outline-primary" data-toggle="collapse" href="#collapse-<%= link.name.replaceAll(' ', '-') %>" role="button" aria-expanded="false"
+        aria-controls="collapse-<%= link.name.replaceAll(' ', '-') %>">
+        Show PDF
+    </a>
+    <a href="<%= link.link %>" download>
+        <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#collapse-<%= link.name %>"
+            aria-expanded="false" aria-controls="collapse-<%= link.name.replaceAll(' ', '-') %>">
+            Download PDF
+        </button>
+    </a>
+    </p>
+    <div class="collapse" id="collapse-<%= link.name.replaceAll(' ', '-') %>">
+        <div class="card card-body">
+            
+            <iframe src="<%= link.link %>#toolbar=0" width="50%" height="500"></iframe>
+        </div>
+    </div>
+    <% } %>

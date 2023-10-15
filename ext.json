@@ -1,0 +1,151 @@
+{
+    "years": [
+        {
+            "year": "Year I",
+            "sems": [
+                {
+                    "sem": "Sem I",
+                    "calender": "",
+                    "theorySubjects": [
+                        {
+                            "subjectName": "Matrices and Calculus",
+                            "code": "MA101",
+                            "info": [],
+                            "otherLinks": [
+                                {"name": "", "link": ""},
+                                {"name": "", "link": ""}
+                            ]
+                        },
+                        {
+                            "subjectName": "Matrices and Calculus",
+                            "code": "MA1101",
+                            "info": [
+                                {
+                                    "name": "UNIT 1 Number Theory",
+                                    "code": "U1",
+                                    "info": [
+                                        {
+                                            "topic": "",
+                                            "subtopics": [" ", ""
+                                            ]
+                                        }
+                                    ],
+                                    "link": "23.ewe"
+                                }
+                            ],
+                            "otherLinks": [
+                                {"name": "", "link": ""},
+                                {"name": "", "link": ""}
+                            ]
+                        },
+                        {
+                            "subjectName": "Programming for Problem Solving",
+                            "code": "CS103",
+                            "info": [
+                                {
+                                    "name": "UNIT 1 Number Theory",
+                                    "code": "U1",
+                                    "info": [
+                                    ],
+                                    "link": "./public/resources/1st Year/AP101-Unit1.pdf"
+                                }
+                            ],
+                            "otherLinks": [
+                                {"name": "", "link": ""},
+                                {"name": "", "link": ""}
+                            ]
+                        },
+                        {
+                            "subjectName": "English for Skill Enhancement",
+                            "code": "EN105",
+                            "info": [],
+                            "otherLinks": [
+                                {"name": "", "link": ""},
+                                {"name": "", "link": ""}
+                            ]
+                        }
+                    ],
+                    "practicalSubjects": [
+                        {
+                            "subjectName": "Engineering Workshop",
+                            "code": "ME104",
+                            "info": [
+                                {
+                                    "name": "UNIT 1 Number Theory",
+                                    "code": "P",
+                                    "info": [
+                                        {
+                                            "topic": "Greatest Common Divisors and Prime Factorization",
+                                            "subtopics": [
+                                                "Fermat numbers"
+                                            ]
+                                        }
+                                    ],
+                                    "link": "23.ewe"
+                                }
+                            ],
+                            "link": "./public/resources/1st Year/AP101-Unit1.pdf",
+                            "otherLinks": [
+                                {"name": "", "link": ""},
+                                {"name": "", "link": ""}
+                            ]
+                        },
+                        {
+                            "subjectName": "Elements of Computer Science & Engineering",
+                            "code": "CS106",
+                            "info": [
+                                {
+                                    "name": "UNIT 1 Number Theory",
+                                    "code": "P",
+                                    "info": [
+                                        {
+                                            "topic": "Greatest Common Divisors and Prime Factorization",
+                                            "subtopics": [
+                                                "Fermat numbers"
+                                            ]
+                                        }
+                                    ],
+                                    "link": "23.ewe"
+                                }
+                            ],
+                            "link": "",
+                            "otherLinks": [
+                                {"name": "", "link": ""},
+                                {"name": "", "link": ""}
+                            ]
+                        },
+                        {
+                            "subjectName": "Applied Physics Laboratory",
+                            "code": "PH107",
+                            "info": [
+                                {
+                                    "name": "UNIT 1 Number Theory",
+                                    "code": "P",
+                                    "info": [
+                                        {
+                                            "topic": "Greatest Common Divisors and Prime Factorization",
+                                            "subtopics": [
+                                                "Fermat numbers"
+                                            ]
+                                        }
+                                    ],
+                                    "link": "23.ewe"
+                                }
+                            ],
+                            "link": "",
+                            "otherLinks": [
+                                {"name": "", "link": ""},
+                                {"name": "", "link": ""}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "sem": "II",
+                    "calender": "",
+                    "theorySubjects": []
+                }
+            ]
+        }
+    ]
+}

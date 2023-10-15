@@ -1,0 +1,12 @@
+<p class="yrbtn">
+    <a class="btn btn-outline-info btn-lg" data-toggle="collapse" href="#collapseYr1" role="button"
+      aria-expanded="false" aria-controls="collapseYr1">
+      <%= year.year %>
+    </a>
+  </p>
+  
+  <% year.sems.forEach(sem => { %>
+    <%- include('sem.ejs', {sem: sem}) %>
+    <% }) %>
+
+

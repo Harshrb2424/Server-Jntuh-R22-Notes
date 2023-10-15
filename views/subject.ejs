@@ -1,0 +1,34 @@
+
+
+        <!-- ? Year 1 sub 1: <%= subject.code %> -->
+        <div class="card">
+          <div class="card-header" id="heading-<%= subject.code %>">
+            <h5 class="mb-0">
+              <button class="btn btn-outline-light text-dark collapsed" data-toggle="collapse"
+                data-target="#collapse-<%= subject.code %>" aria-expanded="false" aria-controls="collapse-<%= subject.code %>">
+                <h3><%= subject.subjectName %></h3>
+              </button>
+            </h5>
+          </div>
+          <div id="collapse-<%= subject.code %>" class="collapse" aria-labelledby="heading-<%= subject.code %>" data-parent="#accordion">
+            <div class="card-body">
+
+              <% subject.info.forEach(units => { %>
+                <%- include( 'units.ejs', {units: units, code: subject.code} ) %>
+               
+                <%- include('unitLinks.ejs', {link: units.link, code: subject.code, Ucode: units.code}) %>
+                <% }) %>
+                <br>
+                <h2>Other Resources</h2>
+                <% subject.otherLinks.forEach(link => { %>
+                 
+                  <%- include('otherLinks.ejs', {link: link}) %>
+                <% }) %>
+            </div>
+          </div>
+        </div>
+        <!-- ! Year 1 sub 1: <%= subject.code %> END -->
+
+  
+
+         

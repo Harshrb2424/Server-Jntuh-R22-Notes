@@ -1,0 +1,25 @@
+<!-- ? Year 1 sub 1: M1 U1 -->
+<div
+  id="collapse-M1"
+  class="collapse"
+  aria-labelledby="heading-M1"
+  data-parent="#accordion"
+></div>
+<div class="card-body">
+  <h4><%= units.name %></h4>
+  <% units.info.forEach(unit => { %>
+    <ul>
+      <li><%= unit.topic %></li>
+      <ul>
+        <% if (unit.subtopics && unit.subtopics.length > 0) { %> 
+        <% unit.subtopics.forEach(topic => { %>
+        <li><%= topic %></li>
+        <% }) } %>
+      </ul>
+    </ul>
+  <% }) %> 
+
+
+</div>
+  <!-- ! Year 1 sub 1: M1 U1 END -->
+  

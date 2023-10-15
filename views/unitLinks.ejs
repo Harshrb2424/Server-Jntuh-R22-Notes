@@ -1,0 +1,19 @@
+<% if (link) { %>
+<a class="btn btn-outline-primary" data-toggle="collapse" href="#collapse-<%= code %>-<%= Ucode %>" role="button" aria-expanded="false"
+    aria-controls="collapse-<%= code %>-<%= Ucode %>">
+    Show PDF
+</a>
+<a href="<%= link %>" download>
+    <button class="btn btn-outline-primary" type="button" data-toggle="collapse" data-target="#collapse-<%= code %>-<%= Ucode %>"
+        aria-expanded="false" aria-controls="collapse-<%= code %>-<%= Ucode %>">
+        Download PDF
+    </button>
+</a>
+</p>
+<div class="collapse" id="collapse-<%= code %>-<%= Ucode %>">
+    <div class="card card-body">
+        
+        <iframe src="<%= link %>#toolbar=0" width="50%" height="500"></iframe>
+    </div>
+</div>
+<% } %>

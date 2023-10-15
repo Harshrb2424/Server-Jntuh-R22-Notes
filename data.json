@@ -1,38 +1,971 @@
 {
-    "yr2Sem1": "Academic Calender",
-    "theorySubjects": [
+    "years": [
         {
-            "subjectName": "M3",
-            "info": [
+            "year": "Year I",
+            "sems": [
                 {
-                    "unitName": "UNIT 1 Number Theory",
-                    "info": [
-                        {
-                            "topic": "Greatest Common Divisors and Prime Factorization",
-                            "subtopics": [
-                                "Greatest common divisors",
-                                "The Euclidean algorithm",
-                                "The fundamental theorem of arithmetic",
-                                "Factorization of integers",
-                                "Fermat numbers"
-                            ],
-                            "link": ""
-                        },
-                        {
-                            "topic": "Congruences",
-                            "subtopics": [
-                                "Introduction to congruences",
-                                "Linear congruences",
-                                "The Chinese remainder theorem",
-                                "Systems of linear congruences"
-                            ],
-                            "link": ""
-                        }
-                    ],
-                    "otherLinks": [
-                        {"name": "", "link": ""},
-                        {"name": "", "link": ""}
-                    ]
+                    "sem": "Sem I",
+                    "calender": "",
+                    "subjects": {
+                        "theorySubjects": [
+                            {
+                                "subjectName": "Matrices and Calculus",
+                                "code": "MA101",
+                                "info": [
+                                    {
+                                        "name": "Unit-1: Matrices",
+                                        "code": "U1",
+                                        "info": [
+                                          {
+                                            "topic": "Rank of a matrix by Echelon form and Normal form"
+                                          },
+                                          {
+                                            "topic": "Inverse of Non-singular matrices by Gauss-Jordan method"
+                                          },
+                                          {
+                                            "topic": "System of linear equations",
+                                            "subtopics": [
+                                              "Solving system of Homogeneous equations by Gauss elimination method",
+                                              "Solving system of Non-Homogeneous equations by Gauss elimination method"
+                                            ]
+                                          },
+                                          {
+                                            "topic": "Gauss Seidel Iteration Method"
+                                          }
+                                        ],
+                                        "link": "./public/resources/1st Year/MA101-Unit1.pdf"
+                                      },
+                                      {
+                                        "name": "Unit-2: Eigen values and Eigen vectors",
+                                        "code": "U2",
+                                        "info": [
+                                          {
+                                            "topic": "Linear Transformation and Orthogonal Transformation",
+                                            "subtopics": [
+                                              "Eigenvalues, Eigenvectors and their properties"
+                                            ]
+                                          },
+                                          {
+                                            "topic": "Diagonalization of a matrix"
+                                          },
+                                          {
+                                            "topic": "Cayley-Hamilton Theorem (without proof)",
+                                            "subtopics": [
+                                              "Finding inverse and power of a matrix by Cayley-Hamilton Theorem"
+                                            ]
+                                          },
+                                          {
+                                            "topic": "Quadratic forms and Nature of the Quadratic Forms",
+                                            "subtopics": [
+                                              "Reduction of Quadratic form to canonical forms by Orthogonal Transformation"
+                                            ]
+                                          }
+                                        ],
+                                        "link": "./public/resources/1st Year/MA101-Unit2.pdf"
+                                      },
+                                      {
+                                        "name": "Unit-3: Calculus",
+                                        "code": "U3",
+                                        "info": [
+                                          {
+                                            "topic": "Mean value theorems",
+                                            "subtopics": [
+                                              "Rolle’s theorem",
+                                              "Lagrange’s Mean value theorem with their Geometrical Interpretation and applications",
+                                              "Cauchy’s Mean value Theorem",
+                                              "Taylor’s Series"
+                                            ]
+                                          },
+                                          {
+                                            "topic": "Applications of definite integrals to evaluate surface areas and volumes of revolutions of curves (Only in Cartesian coordinates)"
+                                          },
+                                          {
+                                            "topic": "Definition of Improper Integral",
+                                            "subtopics": [
+                                              "Beta and Gamma functions and their applications"
+                                            ]
+                                          }
+                                        ],
+                                        "link": "./public/resources/1st Year/MA101-Unit3.pdf"
+                                      },
+                                      {
+                                        "name": "Unit-4: Multivariable Calculus (Partial Differentiation and applications)",
+                                        "code": "U4",
+                                        "info": [
+                                          {
+                                            "topic": "Definitions of Limit and continuity"
+                                          },
+                                          {
+                                            "topic": "Partial Differentiation",
+                                            "subtopics": [
+                                              "Euler’s Theorem",
+                                              "Total derivative",
+                                              "Jacobian",
+                                              "Functional dependence & independence"
+                                            ]
+                                          },
+                                          {
+                                            "topic": "Applications",
+                                            "subtopics": [
+                                              "Maxima and minima of functions of two variables and three variables using method of Lagrange multipliers"
+                                            ]
+                                          }
+                                        ],
+                                        "link": "./public/resources/1st Year/MA101-Unit4.pdf"
+                                      },
+                                      {
+                                        "name": "Unit-5: Multivariable Calculus (Integration)",
+                                        "code": "U5",
+                                        "info": [
+                                          {
+                                            "topic": "Evaluation of Double Integrals (Cartesian and polar coordinates)",
+                                            "subtopics": [
+                                              "Change of order of integration (only Cartesian form)"
+                                            ]
+                                          },
+                                          {
+                                            "topic": "Evaluation of Triple Integrals",
+                                            "subtopics": [
+                                              "Change of variables (Cartesian to polar) for double integrals",
+                                              "Change of variables (Cartesian to Spherical and Cylindrical polar coordinates) for triple integrals"
+                                            ]
+                                          },
+                                          {
+                                            "topic": "Applications",
+                                            "subtopics": [
+                                              "Areas (by double integrals) and volumes (by double integrals and triple integrals)"
+                                            ]
+                                          }
+                                        ],
+                                        "link": "./public/resources/1st Year/MA101-Unit5.pdf"
+                                      }
+                                ],
+                                "otherLinks": [
+                                    {"name": "IMP Mid 1 Bits Questions", "link": "./public/resources/1st Year/MA101-mid1-bits.pdf"},
+                                    {"name": "IMP Mid 2 Bits Questions", "link": "./public/resources/1st Year/MA101-mid2-bits.pdf"},
+                                    {"name": "IMP Mid 2 Importent Questions", "link": "./public/resources/1st Year/MA101-mid2-imp-questions.jpg"},
+                                    {"name": "IMP Sem 1 Importent Questions", "link": "./public/resources/1st Year/MA101-sem1-imp-questions.pdf"}
+                                ]
+                            },
+                            {
+                                "subjectName": "Applied Physics",
+                                "code": "PH102",
+                                "info": [
+                                  {
+                                    "name": "Unit I: Quantum Physics and Solids",
+                                    "code": "U1QPAS",
+                                    "info": [
+                                      {
+                                        "topic": "Quantum Mechanics",
+                                        "subtopics": [
+                                          "Introduction to quantum physics",
+                                          "Blackbody radiation – Stefan-Boltzmann’s law, Wein’s and Rayleigh-Jean’s law",
+                                          "Planck’s radiation law",
+                                          "Photoelectric effect",
+                                          "Davisson and Germer experiment",
+                                          "Heisenberg uncertainty principle",
+                                          "Born interpretation of the wave function",
+                                          "Time-independent Schrödinger wave equation",
+                                          "Particle in one-dimensional potential box"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Solids",
+                                        "subtopics": [
+                                          "Symmetry in solids",
+                                          "Free electron theory (Drude & Lorentz, Sommerfeld)",
+                                          "Fermi-Dirac distribution",
+                                          "Bloch’s theorem",
+                                          "Kronig-Penney model",
+                                          "E-K diagram",
+                                          "Effective mass of electron",
+                                          "Origin of energy bands",
+                                          "Classification of solids"
+                                        ]
+                                      }
+                                    ],
+                                    "link": "./public/resources/1st Year/PH102-Unit1.pdf"
+                                  },
+                                  {
+                                    "name": "Unit II: Semiconductors and Devices",
+                                    "code": "U2SAD",
+                                    "info": [
+                                      {
+                                        "topic": "Intrinsic and Extrinsic Semiconductors",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Hall Effect",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Direct and Indirect Band Gap Semiconductors",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Construction, Principle of Operation, and Characteristics",
+                                        "subtopics": [
+                                          "P-N Junction Diode",
+                                          "Zener Diode",
+                                          "Bipolar Junction Transistor (BJT)"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Devices",
+                                        "subtopics": [
+                                          "LED",
+                                          "PIN Diode",
+                                          "Avalanche Photo Diode (APD)",
+                                          "Solar Cells"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Structure, Materials, Working Principle, and Characteristics",
+                                        "subtopics": [
+                                          "LED",
+                                          "PIN Diode",
+                                          "Avalanche Photo Diode (APD)",
+                                          "Solar Cells"
+                                        ]
+                                      }
+                                    ],
+                                    "link": "./public/resources/1st Year/PH102-Unit2.pdf"
+                                  },
+                                  {
+                                    "name": "Unit III: Dielectric, Magnetic and Energy Materials",
+                                    "code": "U3DME",
+                                    "info": [
+                                      {
+                                        "topic": "Dielectric Materials",
+                                        "subtopics": [
+                                          "Basic Definitions",
+                                          "Types of Polarizations (Qualitative)",
+                                          "Ferroelectric, Piezoelectric, and Pyroelectric Materials",
+                                          "Applications",
+                                          "Liquid Crystal Displays (LCD) and Crystal Oscillators"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Magnetic Materials",
+                                        "subtopics": [
+                                          "Hysteresis",
+                                          "Soft and Hard Magnetic Materials",
+                                          "Magnetostriction",
+                                          "Magnetoresistance",
+                                          "Applications",
+                                          "Bubble Memory Devices, Magnetic Field Sensors, and Multiferroics"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Energy Materials",
+                                        "subtopics": [
+                                          "Conductivity of Liquid and Solid Electrolytes",
+                                          "Superionic Conductors",
+                                          "Materials and Electrolytes for Supercapacitors",
+                                          "Rechargeable Ion Batteries",
+                                          "Solid Fuel Cells"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "Unit IV: Nanotechnology",
+                                    "code": "U4NT",
+                                    "info": [
+                                      {
+                                        "topic": "Nanoscale, Quantum Confinement, Surface to Volume Ratio",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Bottom-Up Fabrication",
+                                        "subtopics": [
+                                          "Sol-Gel",
+                                          "Precipitation",
+                                          "Combustion Methods"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Top-Down Fabrication",
+                                        "subtopics": [
+                                          "Ball Milling",
+                                          "Physical Vapor Deposition (PVD)",
+                                          "Chemical Vapor Deposition (CVD)"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Characterization Techniques",
+                                        "subtopics": [
+                                          "XRD",
+                                          "SEM",
+                                          "TEM"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Applications of Nanomaterials",
+                                        "subtopics": []
+                                      }
+                                    ],
+                                    "link": "./public/resources/1st Year/PH102-Unit4.pdf"
+                                  },
+                                  {
+                                    "name": "Unit V: Laser and Fiber Optics",
+                                    "code": "U5LOFO",
+                                    "info": [
+                                      {
+                                        "topic": "Lasers",
+                                        "subtopics": [
+                                          "Laser Beam Characteristics",
+                                          "Three Quantum Processes",
+                                          "Einstein Coefficients and Their Relations",
+                                          "Lasing Action",
+                                          "Pumping Methods",
+                                          "Ruby Laser",
+                                          "He-Ne Laser",
+                                          "CO2 Laser",
+                                          "Argon Ion Laser",
+                                          "Nd:YAG Laser",
+                                          "Semiconductor Laser",
+                                          "Applications of Laser"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Fiber Optics",
+                                        "subtopics": [
+                                          "Introduction to Optical Fiber",
+                                          "Advantages of Optical Fibers",
+                                          "Total Internal Reflection",
+                                          "Construction of Optical Fiber",
+                                          "Acceptance Angle",
+                                          "Numerical Aperture",
+                                          "Classification of Optical Fibers",
+                                          "Losses in Optical Fiber",
+                                          "Optical Fiber for Communication System",
+                                          "Applications"
+                                        ]
+                                      }
+                                    ],
+                                    "link": "./public/resources/1st Year/PH102-Unit5.pdf"
+                                  }
+                                ],
+                                "otherLinks": [
+                                  {"name": "IMP Unit1 Questions", "link": "./public/resources/1st Year/PH102-Sem1-bits.pdf"},
+                                  {"name": "IMP Unit2 Questions", "link": "./public/resources/1st Year/PH102-Sem1-imp-questions.pdf"}
+                              ]
+                            },
+                            {
+                                "subjectName": "Programming for Problem Solving",
+                                "code": "CS103",
+                                "info": [
+                                  {
+                                    "name": "Unit I: Introduction to Programming",
+                                    "code": "U1IP",
+                                    "info": [
+                                      {
+                                        "topic": "Compilers, Compiling, and Executing a Program",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Representation of Algorithm",
+                                        "subtopics": [
+                                          "Algorithms for Finding Roots of a Quadratic Equation",
+                                          "Algorithms for Finding Minimum and Maximum Numbers of a Given Set",
+                                          "Algorithm for Checking if a Number is Prime",
+                                          "Flowchart/Pseudocode with Examples",
+                                          "Program Design and Structured Programming"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Introduction to C Programming Language",
+                                        "subtopics": [
+                                          "Variables (with Data Types and Space Requirements)",
+                                          "Syntax and Logical Errors in Compilation",
+                                          "Object and Executable Code",
+                                          "Operators, Expressions, and Precedence",
+                                          "Expression Evaluation",
+                                          "Storage Classes (Auto, Extern, Static, and Register)",
+                                          "Type Conversion",
+                                          "The Main Method and Command Line Arguments",
+                                          "Bitwise Operations: Bitwise AND, OR, XOR, and NOT Operators"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Conditional Branching and Loops",
+                                        "subtopics": [
+                                          "Writing and Evaluation of Conditionals and Consequent Branching with If, If-Else, Switch-Case, Ternary Operator, Goto",
+                                          "Iteration with For, While, Do-While Loops"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "I/O: Simple Input and Output with scanf",
+                                        "subtopics": []
+                                      }
+                                    ],
+                                    "link": "./public/resources/1st Year/PPS-Unit1.pdf"
+                                  },
+                                  {
+                                    "name": "Unit II: Arrays, Strings, Structures and Pointers",
+                                    "code": "U2ASSP",
+                                    "info": [
+                                      {
+                                        "topic": "Arrays",
+                                        "subtopics": [
+                                          "One and Two Dimensional Arrays",
+                                          "Creating, Accessing, and Manipulating Elements of Arrays"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Strings",
+                                        "subtopics": [
+                                          "Introduction to Strings",
+                                          "Handling Strings as Arrays of Characters",
+                                          "Basic String Functions in C (strlen, strcat, strcpy, strstr, etc.)",
+                                          "Arrays of Strings"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Structures",
+                                        "subtopics": [
+                                          "Defining Structures",
+                                          "Initializing Structures",
+                                          "Unions",
+                                          "Array of Structures"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Pointers",
+                                        "subtopics": [
+                                          "Idea of Pointers",
+                                          "Defining Pointers",
+                                          "Pointers to Arrays and Structures",
+                                          "Use of Pointers in Self-Referential Structures",
+                                          "Usage of Self-Referential Structures in Linked List (No Implementation)"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Enumeration Data Type",
+                                        "subtopics": []
+                                      }
+                                    ],
+                                    "link": "./public/resources/1st Year/PPS-Unit2.pdf"
+                                  },
+                                  {
+                                    "name": "Unit III: Preprocessor and File Handling in C",
+                                    "code": "U3PFC",
+                                    "info": [
+                                      {
+                                        "topic": "Preprocessor",
+                                        "subtopics": [
+                                          "Commonly Used Preprocessor Commands",
+                                          "Include",
+                                          "Define",
+                                          "Undef",
+                                          "If",
+                                          "Ifdef",
+                                          "Ifndef"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Files",
+                                        "subtopics": [
+                                          "Text and Binary Files",
+                                          "Creating, Reading, and Writing Text and Binary Files",
+                                          "Appending Data to Existing Files",
+                                          "Writing and Reading Structures Using Binary Files",
+                                          "Random Access Using fseek, ftell, and rewind Functions"
+                                        ]
+                                      }
+                                    ],
+                                    "link": "./public/resources/1st Year/PPS-Unit3.pdf"
+                                  },
+                                  {
+                                    "name": "Unit IV: Function and Dynamic Memory Allocation",
+                                    "code": "U4FDMA",
+                                    "info": [
+                                      {
+                                        "topic": "Functions",
+                                        "subtopics": [
+                                          "Designing Structured Programs",
+                                          "Declaring a Function",
+                                          "Signature of a Function",
+                                          "Parameters and Return Type of a Function",
+                                          "Passing Parameters to Functions (Call by Value)",
+                                          "Passing Arrays to Functions",
+                                          "Passing Pointers to Functions",
+                                          "Idea of Call by Reference",
+                                          "Some C Standard Functions and Libraries"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Recursion",
+                                        "subtopics": [
+                                          "Simple Programs (e.g., Finding Factorial, Fibonacci Series)",
+                                          "Limitations of Recursive Functions"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Dynamic Memory Allocation",
+                                        "subtopics": [
+                                          "Allocating and Freeing Memory",
+                                          "Allocating Memory for Arrays of Different Data Types"
+                                        ]
+                                      }
+                                    ],
+                                    "link": "./public/resources/1st Year/PPS-Unit4.pdf"
+                                  },
+                                  {
+                                    "name": "Unit V: Searching and Sorting",
+                                    "code": "U5SS",
+                                    "info": [
+                                      {
+                                        "topic": "Basic Searching in an Array of Elements",
+                                        "subtopics": [
+                                          "Linear Search Technique",
+                                          "Binary Search Technique"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Basic Algorithms to Sort an Array of Elements",
+                                        "subtopics": [
+                                          "Bubble Sort Algorithm",
+                                          "Insertion Sort Algorithm",
+                                          "Selection Sort Algorithm"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Basic Concept of Order of Complexity",
+                                        "subtopics": [
+                                          "Through Example Programs"
+                                        ]
+                                      }
+                                    ],
+                                    "link": "./public/resources/1st Year/PPS-Unit5.pdf"
+                                  }
+                                ],
+                                "otherLinks": [
+                                    {"name": "IMP Unit1 Questions", "link": "./public/resources/1st Year/PH102-Sem1-bits.pdf"},
+                                    {"name": "IMP Unit2 Questions", "link": "./public/resources/1st Year/PH102-Sem1-imp-questions.pdf"}
+                                ]
+                            },
+                            {
+                                "subjectName": "English for Skill Enhancement",
+                                "code": "EN105",
+                                "info": [
+                                  {
+                                    "name": "Unit I: Toasted English",
+                                    "code": "U1TELC",
+                                    "info": [
+                                      {
+                                        "topic": "Chapter entitled ‘Toasted English’ by R.K. Narayan",
+                                        "subtopics": [
+                                          "From “English: Language, Context and Culture” published by Orient BlackSwan, Hyderabad"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Vocabulary",
+                                        "subtopics": [
+                                          "The Concept of Word Formation",
+                                          "The Use of Prefixes and Suffixes",
+                                          "Acquaintance with Prefixes and Suffixes from Foreign Languages to Form Derivatives",
+                                          "Synonyms and Antonyms"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Grammar",
+                                        "subtopics": [
+                                          "Identifying Common Errors in Writing with Reference to Articles and Prepositions"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Reading",
+                                        "subtopics": [
+                                          "Reading and Its Importance",
+                                          "Techniques for Effective Reading"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Writing",
+                                        "subtopics": [
+                                          "Sentence Structures",
+                                          "Use of Phrases and Clauses in Sentences",
+                                          "Importance of Proper Punctuation",
+                                          "Techniques for Writing Precisely",
+                                          "Paragraph Writing",
+                                          "Types, Structures, and Features of a Paragraph",
+                                          "Creating Coherence",
+                                          "Organizing Principles of Paragraphs in Documents"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "Unit II: Appro JRD",
+                                    "code": "U2AJ",
+                                    "info": [
+                                      {
+                                        "topic": "Chapter entitled ‘Appro JRD’ by Sudha Murthy",
+                                        "subtopics": [
+                                          "From “English: Language, Context and Culture” published by Orient BlackSwan, Hyderabad"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Vocabulary",
+                                        "subtopics": [
+                                          "Words Often Misspelt",
+                                          "Homophones, Homonyms, and Homographs"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Grammar",
+                                        "subtopics": [
+                                          "Identifying Common Errors in Writing with Reference to Noun-Pronoun Agreement",
+                                          "Subject-Verb Agreement"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Reading",
+                                        "subtopics": [
+                                          "Sub-Skills of Reading",
+                                          "Skimming and Scanning",
+                                          "Exercises for Practice"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Writing",
+                                        "subtopics": [
+                                          "Nature and Style of Writing",
+                                          "Defining/Describing People, Objects, Places, and Events",
+                                          "Classifying",
+                                          "Providing Examples or Evidence"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "Unit III: Lessons from Online Learning",
+                                    "code": "U3LOL",
+                                    "info": [
+                                      {
+                                        "topic": "Chapter entitled ‘Lessons from Online Learning’ by F. Haider Alvi, Deborah Hurst, et al",
+                                        "subtopics": [
+                                          "From “English: Language, Context and Culture” published by Orient BlackSwan, Hyderabad"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Vocabulary",
+                                        "subtopics": [
+                                          "Words Often Confused",
+                                          "Words from Foreign Languages and Their Use in English"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Grammar",
+                                        "subtopics": [
+                                          "Identifying Common Errors in Writing with Reference to Misplaced Modifiers",
+                                          "Tenses"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Reading",
+                                        "subtopics": [
+                                          "Sub-Skills of Reading",
+                                          "Intensive Reading and Extensive Reading",
+                                          "Exercises for Practice"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Writing",
+                                        "subtopics": [
+                                          "Format of a Formal Letter",
+                                          "Writing Formal Letters (e.g., Letter of Complaint, Letter of Requisition)",
+                                          "Email Etiquette",
+                                          "Job Application with CV/Resume"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "Unit IV: Art and Literature",
+                                    "code": "U4AL",
+                                    "info": [
+                                      {
+                                        "topic": "Chapter entitled ‘Art and Literature’ by Abdul Kalam",
+                                        "subtopics": [
+                                          "From “English: Language, Context and Culture” published by Orient BlackSwan, Hyderabad"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Vocabulary",
+                                        "subtopics": [
+                                          "Standard Abbreviations in English"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Grammar",
+                                        "subtopics": [
+                                          "Redundancies and Clichés in Oral and Written Communication"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Reading",
+                                        "subtopics": [
+                                          "Survey, Question, Read, Recite and Review (SQ3R Method)",
+                                          "Exercises for Practice"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Writing",
+                                        "subtopics": [
+                                          "Writing Practices",
+                                          "Essay Writing",
+                                          "Writing Introduction and Conclusion",
+                                          "Précis Writing"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "Unit V: Go, Kiss the World",
+                                    "code": "U5GKW",
+                                    "info": [
+                                      {
+                                        "topic": "Chapter entitled ‘Go, Kiss the World’ by Subroto Bagchi",
+                                        "subtopics": [
+                                          "From “English: Language, Context and Culture” published by Orient BlackSwan, Hyderabad"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Vocabulary",
+                                        "subtopics": [
+                                          "Technical Vocabulary and Their Usage"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Grammar",
+                                        "subtopics": [
+                                          "Common Errors in English (Covering All the Other Aspects of Grammar Which Were Not Covered in the Previous Units)"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Reading",
+                                        "subtopics": [
+                                          "Reading Comprehension",
+                                          "Exercises for Practice"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Writing",
+                                        "subtopics": [
+                                          "Technical Reports",
+                                          "Introduction",
+                                          "Characteristics of a Report",
+                                          "Categories of Reports Formats",
+                                          "Structure of Reports (Manuscript Format)",
+                                          "Types of Reports",
+                                          "Writing a Report"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  }
+                                ],
+                                "otherLinks": [
+                                    {"name": "IMP Unit1 Questions", "link": "./public/resources/1st Year/MCIMP-Unit1.pdf"},
+                                    {"name": "IMP Unit2 Questions", "link": "./public/resources/1st Year/MCIMP-Unit2.pdf"},
+                                    {"name": "IMP Unit3 Questions", "link": "./public/resources/1st Year/MCIMP-Unit3.pdf"},
+                                    {"name": "", "link": ""}
+                                ]
+                            }
+                        ],
+                        "practicalSubjects": [
+                            {
+                                "subjectName": "Engineering Workshop",
+                                "code": "ME104",
+                                "info": [],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Elements of Computer Science & Engineering",
+                                "code": "CS106",
+                                "info": [
+                                    {
+                                        "name": "UNIT 1 Number Theory",
+                                        "code": "U1",
+                                        "info": [
+                                            {
+                                                "topic": "",
+                                                "subtopics": [" ", ""
+                                                ]
+                                            }
+                                        ],
+                                        "link": "23.ewe"
+                                    }
+                                ],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Applied Physics Laboratory",
+                                "code": "PH107",
+                                "info": [
+                                    {
+                                        "name": "UNIT 1 Number Theory",
+                                        "code": "U1",
+                                        "info": [
+                                        ],
+                                        "link": "./public/resources/1st Year/AP101-Unit1.pdf"
+                                    }
+                                ],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Programming for Problem Solving Laboratory",
+                                "code": "CS108",
+                                "info": [],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            }
+                        ]
+                    }
+
+                },
+                {
+                    "sem": "II",
+                    "calender": "",
+                    "subjects": {
+                        "theorySubjects": [
+                            {
+                                "subjectName": "Matrices and Calculus",
+                                "code": "MA101",
+                                "info": [],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Matrices and Calculus",
+                                "code": "MA1101",
+                                "info": [
+                                    {
+                                        "name": "UNIT 1 Number Theory",
+                                        "code": "U1",
+                                        "info": [
+                                            {
+                                                "topic": "",
+                                                "subtopics": [" ", ""
+                                                ]
+                                            }
+                                        ],
+                                        "link": "23.ewe"
+                                    }
+                                ],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Programming for Problem Solving",
+                                "code": "CS103",
+                                "info": [
+                                    {
+                                        "name": "UNIT 1 Number Theory",
+                                        "code": "U1",
+                                        "info": [
+                                        ],
+                                        "link": "./public/resources/1st Year/AP101-Unit1.pdf"
+                                    }
+                                ],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "English for Skill Enhancement",
+                                "code": "EN105",
+                                "info": [],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            }
+                        ],
+                        "practicalSubjects": [
+                            {
+                                "subjectName": "Engineering Workshop",
+                                "code": "ME104",
+                                "info": [],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Elements of Computer Science & Engineering",
+                                "code": "CS106",
+                                "info": [
+                                    {
+                                        "name": "UNIT 1 Number Theory",
+                                        "code": "U1",
+                                        "info": [
+                                            {
+                                                "topic": "",
+                                                "subtopics": [" ", ""
+                                                ]
+                                            }
+                                        ],
+                                        "link": "23.ewe"
+                                    }
+                                ],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Applied Physics Laboratory",
+                                "code": "PH107",
+                                "info": [
+                                    {
+                                        "name": "UNIT 1 Number Theory",
+                                        "code": "U1",
+                                        "info": [
+                                        ],
+                                        "link": "./public/resources/1st Year/AP101-Unit1.pdf"
+                                    }
+                                ],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Programming for Problem Solving Laboratory",
+                                "code": "CS108",
+                                "info": [],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            }
+                        ]
+                    }
                 }
             ]
         }
