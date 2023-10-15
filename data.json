@@ -4,7 +4,7 @@
             "year": "Year I",
             "sems": [
                 {
-                    "sem": "Sem I",
+                    "sem": "Year I Sem I",
                     "calender": "",
                     "subjects": {
                         "theorySubjects": [
@@ -184,7 +184,7 @@
                                         ]
                                       }
                                     ],
-                                    "link": "./public/resources/1st Year/PH102-Unit1.pdf"
+                                    "link": ""
                                   },
                                   {
                                     "name": "Unit II: Semiconductors and Devices",
@@ -543,8 +543,8 @@
                                   }
                                 ],
                                 "otherLinks": [
-                                    {"name": "IMP Unit1 Questions", "link": "./public/resources/1st Year/PH102-Sem1-bits.pdf"},
-                                    {"name": "IMP Unit2 Questions", "link": "./public/resources/1st Year/PH102-Sem1-imp-questions.pdf"}
+                                    {"name": "PPS Notes All Units", "link": "./public/resources/1st Year/PPS-All-Units.pdf"},
+                                    {"name": "", "link": ""}
                                 ]
                             },
                             {
@@ -774,9 +774,7 @@
                                   }
                                 ],
                                 "otherLinks": [
-                                    {"name": "IMP Unit1 Questions", "link": "./public/resources/1st Year/MCIMP-Unit1.pdf"},
-                                    {"name": "IMP Unit2 Questions", "link": "./public/resources/1st Year/MCIMP-Unit2.pdf"},
-                                    {"name": "IMP Unit3 Questions", "link": "./public/resources/1st Year/MCIMP-Unit3.pdf"},
+                                    {"name": "", "link": ""},
                                     {"name": "", "link": ""}
                                 ]
                             }
@@ -785,7 +783,106 @@
                             {
                                 "subjectName": "Engineering Workshop",
                                 "code": "ME104",
-                                "info": [],
+                                "info": [
+                                  {
+                                    "name": "Trades and Exercises",
+                                    "code": "TE",
+                                    "info": [
+                                      {
+                                        "topic": "Carpentry",
+                                        "subtopics": [
+                                          "T-Lap Joint",
+                                          "Dovetail Joint",
+                                          "Mortise & Tenon Joint"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Fitting",
+                                        "subtopics": [
+                                          "V-Fit",
+                                          "Dovetail Fit",
+                                          "Semi-circular Fit"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Tin-Smithy",
+                                        "subtopics": [
+                                          "Square Tin",
+                                          "Rectangular Tray",
+                                          "Conical Funnel"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Foundry",
+                                        "subtopics": [
+                                          "Preparation of Green Sand Mould using Single Piece",
+                                          "Preparation of Green Sand Mould using Split Pattern"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Welding Practice",
+                                        "subtopics": [
+                                          "Arc Welding",
+                                          "Gas Welding"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "House-wiring",
+                                        "subtopics": [
+                                          "Parallel & Series Wiring",
+                                          "Two-way Switch Wiring",
+                                          "Tube Light Wiring"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Black Smithy",
+                                        "subtopics": [
+                                          "Round to Square",
+                                          "Fan Hook",
+                                          "S-Hook"
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "Trades for Demonstration & Exposure",
+                                    "code": "TDE",
+                                    "info": [
+                                      {
+                                        "topic": "Plumbing",
+                                        "subtopics": [
+                                          "Demonstration and Exposure"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Machine Shop",
+                                        "subtopics": [
+                                          "Demonstration and Exposure"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Metal Cutting (Water Plasma)",
+                                        "subtopics": [
+                                          "Demonstration and Exposure"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Power Tools in Construction",
+                                        "subtopics": [
+                                          "Demonstration and Exposure"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Wood Working",
+                                        "subtopics": [
+                                          "Demonstration and Exposure"
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                  
+                                  
+                                ],
                                 "otherLinks": [
                                     {"name": "", "link": ""},
                                     {"name": "", "link": ""}
@@ -795,18 +892,162 @@
                                 "subjectName": "Elements of Computer Science & Engineering",
                                 "code": "CS106",
                                 "info": [
-                                    {
-                                        "name": "UNIT 1 Number Theory",
-                                        "code": "U1",
-                                        "info": [
-                                            {
-                                                "topic": "",
-                                                "subtopics": [" ", ""
-                                                ]
-                                            }
-                                        ],
-                                        "link": "23.ewe"
-                                    }
+                                  {
+                                    "name": "Unit I: Basics of a Computer",
+                                    "code": "U1BC",
+                                    "info": [
+                                      {
+                                        "topic": "Basics of a Computer",
+                                        "subtopics": [
+                                          "Hardware",
+                                          "Software",
+                                          "Generations of Computers"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Hardware",
+                                        "subtopics": [
+                                          "Functional Units",
+                                          "Components of CPU",
+                                          "Memory – Hierarchy",
+                                          "Types of Memory",
+                                          "Input and Output Devices"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Software",
+                                        "subtopics": [
+                                          "Systems Software",
+                                          "Application Software",
+                                          "Packages",
+                                          "Frameworks",
+                                          "IDEs"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "Unit II: Software Development and Program Development",
+                                    "code": "U2SDPD",
+                                    "info": [
+                                      {
+                                        "topic": "Software Development",
+                                        "subtopics": [
+                                          "Waterfall Model",
+                                          "Agile"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Types of Computer Languages",
+                                        "subtopics": [
+                                          "Programming Languages",
+                                          "Markup Languages",
+                                          "Scripting Languages"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Program Development",
+                                        "subtopics": [
+                                          "Steps in Program Development",
+                                          "Flowcharts",
+                                          "Algorithms",
+                                          "Data Structures – Definition",
+                                          "Types of Data Structures"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "Unit III: Operating Systems and Database Management Systems",
+                                    "code": "U3OSDBMS",
+                                    "info": [
+                                      {
+                                        "topic": "Operating Systems",
+                                        "subtopics": [
+                                          "Functions of Operating Systems",
+                                          "Types of Operating Systems",
+                                          "Device & Resource Management"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Database Management Systems",
+                                        "subtopics": [
+                                          "Data Models",
+                                          "RDBMS",
+                                          "SQL",
+                                          "Database Transactions",
+                                          "Data Centers",
+                                          "Cloud Services"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "Unit IV: Computer Networks, World Wide Web, Security",
+                                    "code": "U4CNWS",
+                                    "info": [
+                                      {
+                                        "topic": "Computer Networks",
+                                        "subtopics": [
+                                          "Advantages of Computer Networks",
+                                          "LAN, WAN, MAN",
+                                          "Internet",
+                                          "WiFi",
+                                          "Sensor Networks",
+                                          "Vehicular Networks",
+                                          "5G Communication"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "World Wide Web",
+                                        "subtopics": [
+                                          "Basics",
+                                          "Role of HTML, CSS, XML",
+                                          "Tools for Web Designing",
+                                          "Social Media",
+                                          "Online Social Networks"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Security",
+                                        "subtopics": [
+                                          "Information Security",
+                                          "Cyber Security",
+                                          "Cyber Laws"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "Unit V: Autonomous Systems, Cloud Basics",
+                                    "code": "U5ASCB",
+                                    "info": [
+                                      {
+                                        "topic": "Autonomous Systems",
+                                        "subtopics": [
+                                          "IoT",
+                                          "Robotics",
+                                          "Drones",
+                                          "Artificial Intelligence – Learning",
+                                          "Game Development",
+                                          "Natural Language Processing",
+                                          "Image and Video Processing"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Cloud Basics",
+                                        "subtopics": []
+                                      }
+                                    ],
+                                    "link": ""
+                                  }
+                                  
+                                  
+                                  
                                 ],
                                 "otherLinks": [
                                     {"name": "", "link": ""},
@@ -817,13 +1058,55 @@
                                 "subjectName": "Applied Physics Laboratory",
                                 "code": "PH107",
                                 "info": [
-                                    {
-                                        "name": "UNIT 1 Number Theory",
-                                        "code": "U1",
-                                        "info": [
-                                        ],
-                                        "link": "./public/resources/1st Year/AP101-Unit1.pdf"
-                                    }
+                                  {
+                                    "name": "List of Experiments",
+                                    "code": "LE",
+                                    "info": [
+                                      {
+                                        "topic": "Determination of work function and Planck’s constant using photoelectric effect."
+                                      },
+                                      {
+                                        "topic": "Determination of Hall coefficient and carrier concentration of a given semiconductor."
+                                      },
+                                      {
+                                        "topic": "Characteristics of series and parallel LCR circuits."
+                                      },
+                                      {
+                                        "topic": "V-I characteristics of a p-n junction diode and Zener diode."
+                                      },
+                                      {
+                                        "topic": "Input and output characteristics of BJT (CE, CB & CC configurations)."
+                                      },
+                                      {
+                                        "topic": "V-I and L-I characteristics of light-emitting diode (LED).",
+                                        "subtopics": [
+                                          "V-I Characteristics of solar cell."
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Determination of Energy gap of a semiconductor."
+                                      },
+                                      {
+                                        "topic": "Determination of the resistivity of a semiconductor by the two-probe method."
+                                      },
+                                      {
+                                        "topic": "Study B-H curve of a magnetic material."
+                                      },
+                                      {
+                                        "topic": "Determination of the dielectric constant of a given material."
+                                      },
+                                      {
+                                        "topic": "Determination of the beam divergence of the given LASER beam.",
+                                        "subtopics": [
+                                          "Determination of Acceptance Angle and Numerical Aperture of an optical fiber."
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Understanding the method of least squares – torsional pendulum as an example."
+                                      }
+                                    ]
+                                  }
+                                  
                                 ],
                                 "otherLinks": [
                                     {"name": "", "link": ""},
@@ -833,7 +1116,260 @@
                             {
                                 "subjectName": "Programming for Problem Solving Laboratory",
                                 "code": "CS108",
-                                "info": [],
+                                "info": [
+                                  {
+                                    "name": "Simple Numeric Problems",
+                                    "code": "SNP",
+                                    "info": [
+                                      {
+                                        "topic": "Write a program for finding the max and min from the three numbers.",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Write the program for simple and compound interest.",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Write a program that declares Class awarded for a given percentage of marks.",
+                                        "subtopics": [
+                                          "Failed (<40%)",
+                                          "Second class (40% to <60%)",
+                                          "First class (60% to <70%)",
+                                          "Distinction (>= 70%)"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Write a program that prints a multiplication table for a given number and the number of rows in the table.",
+                                        "subtopics": [
+                                          "For example, for a number 5 and rows = 3, the output should be:",
+                                          "5 x 1 = 5",
+                                          "5 x 2 = 10",
+                                          "5 x 3 = 15"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Write a program that shows the binary equivalent of a given positive number between 0 to 255.",
+                                        "subtopics": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "Expression Evaluation",
+                                    "code": "EE",
+                                    "info": [
+                                      {
+                                        "topic": "A building has 10 floors with a floor height of 3 meters each. A ball is dropped from the top of the building. Find the time taken by the ball to reach each floor.",
+                                        "subtopics": [
+                                          "Use the formula s = ut + (1/2)at^2",
+                                          "where u and a are the initial velocity in m/sec (= 0) and acceleration in m/sec^2 (= 9.8 m/s^2)"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Write a C program, which takes two integer operands and one operator from the user, performs the operation and then prints the result.",
+                                        "subtopics": [
+                                          "Consider the operators +, -, *, /, % and use Switch Statement"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Write a program that finds if a given number is a prime number.",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Write a C program to find the sum of individual digits of a positive integer and test given number is palindrome.",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "A Fibonacci sequence is defined as follows: the first and second terms in the sequence are 0 and 1. Subsequent terms are found by adding the preceding two terms in the sequence. Write a C program to generate the first n terms of the sequence.",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Write a C program to generate all the prime numbers between 1 and n, where n is a value supplied by the user.",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Write a C program to find the roots of a Quadratic equation.",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Write a C program to calculate the following, where x is a fractional value.",
+                                        "subtopics": [
+                                          "1 - x/2 + x^2/4 - x^3/6"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Write a C program to read in two numbers, x and n, and then compute the sum of this geometric progression: 1 + x + x^2 + x^3 + ............. + x^n. For example: if n is 3 and x is 5, then the program computes 1 + 5 + 25 + 125.",
+                                        "subtopics": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "Arrays, Pointers, and Functions",
+                                    "code": "APF",
+                                    "info": [
+                                      {
+                                        "topic": "Write a C program to find the minimum, maximum and average in an array of integers.",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Write a function to compute mean, variance, Standard Deviation, sorting of n elements in a single dimension array.",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Write a C program that uses functions to perform the following:",
+                                        "subtopics": [
+                                          "Addition of Two Matrices",
+                                          "Multiplication of Two Matrices",
+                                          "Transpose of a matrix with memory dynamically allocated for the new matrix as row and column counts may not be the same."
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Write C programs that use both recursive and non-recursive functions",
+                                        "subtopics": [
+                                          "To find the factorial of a given integer.",
+                                          "To find the GCD (greatest common divisor) of two given integers.",
+                                          "To find x^n"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Write a program for reading elements using a pointer into an array and display the values using the array.",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Write a program for display values in reverse order from an array using a pointer.",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Write a program through a pointer variable to sum of n elements from an array.",
+                                        "subtopics": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "Files",
+                                    "code": "F",
+                                    "info": [
+                                      {
+                                        "topic": "Write a C program to display the contents of a file to the standard output device.",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Write a C program which copies one file to another, replacing all lowercase characters with their uppercase equivalents.",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Write a C program to count the number of times a character occurs in a text file. The file name and the character are supplied as command line arguments.",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Write a C program that does the following:",
+                                        "subtopics": [
+                                          "Create a binary file and store 10 integers, where the file name and 10 values are given in the command line. (hint: convert the strings using atoi function)",
+                                          "Ask for an index and a value from the user, and the value at that index should be changed to the new value in the file. (hint: use fseek function)",
+                                          "Read all 10 values and print them back."
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Write a C program to merge two files into a third file (i.e., the contents of the first file followed by those of the second are put in the third file).",
+                                        "subtopics": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "Strings",
+                                    "code": "S",
+                                    "info": [
+                                      {
+                                        "topic": "Write a C program to convert a Roman numeral ranging from I to L to its decimal equivalent.",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Write a C program that converts a number ranging from 1 to 50 to Roman equivalent.",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Write a C program that uses functions to perform the following operations:",
+                                        "subtopics": [
+                                          "To insert a sub-string into a given main string from a given position.",
+                                          "To delete n Characters from a given position in a given string."
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Write a C program to determine if the given string is a palindrome or not (Spelled the same in both directions with or without a meaning like madam, civic, noon, abcba, etc.)",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Write a C program that displays the position of a character ch in the string S or – 1 if S doesn't contain ch.",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Write a C program to count the lines, words and characters in a given text.",
+                                        "subtopics": []
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "Miscellaneous",
+                                    "code": "M",
+                                    "info": [
+                                      {
+                                        "topic": "Write a menu-driven C program that allows a user to enter n numbers and then choose between finding the smallest, largest, sum, or average. The menu and all the choices are to be functions. Use a switch statement to determine what action to take. Display an error message if an invalid choice is entered.",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Write a C program to construct a pyramid of numbers as follows:",
+                                        "subtopics": [
+                                          "1",
+                                          "1 2",
+                                          "1 2 3"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Write a C program to construct a pyramid of asterisks as follows:",
+                                        "subtopics": [
+                                          "*",
+                                          "* *",
+                                          "* * *"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Write a C program to construct a pyramid of numbers as follows:",
+                                        "subtopics": [
+                                          "1",
+                                          "2 3",
+                                          "4 5 6"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Write a C program to construct a pyramid of asterisks as follows:",
+                                        "subtopics": [
+                                          "*",
+                                          "* *",
+                                          "* * *",
+                                          "* * * *"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Write a C program to construct a pyramid of numbers as follows:",
+                                        "subtopics": [
+                                          "1",
+                                          "2 2",
+                                          "3 3 3",
+                                          "4 4 4 4"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Write a C program to construct a pyramid of asterisks as follows:",
+                                        "subtopics": [
+                                          "*",
+                                          "* *",
+                                          "* * *",
+                                          "* * * *",
+                                          "* * * * *"
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ],
                                 "otherLinks": [
                                     {"name": "", "link": ""},
                                     {"name": "", "link": ""}
@@ -844,13 +1380,2316 @@
 
                 },
                 {
-                    "sem": "II",
+                    "sem": "Year I Sem II",
                     "calender": "",
                     "subjects": {
                         "theorySubjects": [
                             {
-                                "subjectName": "Matrices and Calculus",
-                                "code": "MA101",
+                                "subjectName": "Ordinary Differential Equations and Vector Calculus",
+                                "code": "MA201BS",
+                                "info": [
+                                  {
+                                    "name": "UNIT I: First Order ODE",
+                                    "code": "U1FOODE",
+                                    "info": [
+                                      {
+                                        "topic": "Exact differential equations",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Equations reducible to exact differential equations",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Linear and Bernoulli’s equations",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Orthogonal Trajectories (only in Cartesian Coordinates)",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Applications",
+                                        "subtopics": [
+                                          "Newton’s law of cooling",
+                                          "Law of natural growth and decay"
+                                        ]
+                                      }
+                                    ],
+                                    "link": "./public/resources/1st Year/MA201-Unit1.pdf"
+                                  },
+                                  {
+                                    "name": "UNIT II: Ordinary Differential Equations of Higher Order",
+                                    "code": "U2ODEHO",
+                                    "info": [
+                                      {
+                                        "topic": "Second order linear differential equations with constant coefficients",
+                                        "subtopics": [
+                                          "Non-Homogeneous terms of the type e^ax, sinܽ ax , cos ܽax, polynomials in x, e^ax.V(x) and x.V(x), method of variation of parameters"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Equations reducible to linear ODE with constant coefficients",
+                                        "subtopics": [
+                                          "Legendre’s equation",
+                                          "Cauchy-Euler equation"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Applications",
+                                        "subtopics": [
+                                          "Electric Circuits"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  
+                                  {
+                                    "name": "UNIT III: Laplace transforms",
+                                    "code": "U3LT",
+                                    "info": [
+                                      {
+                                        "topic": "Laplace Transforms",
+                                        "subtopics": [
+                                          "Laplace Transform of standard functions",
+                                          "First shifting theorem",
+                                          "Second shifting theorem",
+                                          "Unit step function",
+                                          "Dirac delta function",
+                                          "Laplace transforms of functions when they are multiplied and divided by ‘t’",
+                                          "Laplace transforms of derivatives and integrals of function",
+                                          "Evaluation of integrals by Laplace transforms",
+                                          "Laplace transform of periodic functions",
+                                          "Inverse Laplace transform by different methods",
+                                          "Convolution theorem (without proof)"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Applications",
+                                        "subtopics": [
+                                          "solving Initial value problems by Laplace Transform method"
+                                        ]
+                                      }
+                                    ],
+                                    "link": "./public/resources/1st Year/MA201-Unit3.pdf"
+                                  },
+                                  {
+                                    "name": "UNIT IV: Vector Differentiation",
+                                    "code": "U4VD",
+                                    "info": [
+                                      {
+                                        "topic": "Vector point functions and scalar point functions",
+                                        "subtopics": [
+                                          "Gradient",
+                                          "Divergence and Curl",
+                                          "Directional derivatives",
+                                          "Tangent plane and normal line",
+                                          "Vector Identities",
+                                          "Scalar potential functions",
+                                          "Solenoidal and Irrotational vectors"
+                                        ]
+                                      }
+                                    ],
+                                    "link": "./public/resources/1st Year/MA201-Unit4.pdf"
+                                  },
+                                  
+                                  {
+                                    "name": "UNIT V: Vector Integration",
+                                    "code": "U5VI",
+                                    "info": [
+                                      {
+                                        "topic": "Line, Surface and Volume Integrals",
+                                        "subtopics": [
+                                          "Theorems of Green, Gauss and Stokes (without proofs) and their applications"
+                                        ]
+                                      }
+                                    ],
+                                    "link": "./public/resources/1st Year/MA201-Unit5.pdf"
+                                  }
+                                ],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Engineering Chemistry",
+                                "code": "CH202BS",
+                                "info": [
+                                  {
+                                    "name": "UNIT I: Water and its Treatment",
+                                    "code": "U1WT",
+                                    "info": [
+                                      {
+                                        "topic": "Introduction to hardness of water",
+                                        "subtopics": [
+                                          "Estimation of hardness of water by complexometric method",
+                                          "Related numerical problems"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Potable water and its specifications",
+                                        "subtopics": [
+                                          "Steps involved in the treatment of potable water",
+                                          "Disinfection of potable water by chlorination",
+                                          "Break-point chlorination"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Defluoridation",
+                                        "subtopics": [
+                                          "Determination of Fion by ion-selective electrode method"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Boiler troubles",
+                                        "subtopics": [
+                                          "Sludges, Scales, and Caustic embrittlement",
+                                          "Internal treatment of Boiler feed water",
+                                          "Calgon conditioning",
+                                          "Phosphate conditioning",
+                                          "Colloidal conditioning"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "External treatment methods",
+                                        "subtopics": [
+                                          "Softening of water by ion-exchange processes"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Desalination of water",
+                                        "subtopics": [
+                                          "Reverse osmosis"
+                                        ]
+                                      }
+                                    ],
+                                    "link": "./public/resources/1st Year/CH202-Unit1.pdf"
+                                  },
+                                  {
+                                    "name": "UNIT II: Battery Chemistry & Corrosion",
+                                    "code": "U2BCC",
+                                    "info": [
+                                      {
+                                        "topic": "Introduction",
+                                        "subtopics": [
+                                          "Classification of batteries: primary, secondary, and reserve batteries with examples",
+                                          "Basic requirements for commercial batteries"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Batteries",
+                                        "subtopics": [
+                                          "Construction, working, and applications of Zn-air and Lithium-ion battery",
+                                          "Applications of Li-ion battery to electrical vehicles"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Fuel Cells",
+                                        "subtopics": [
+                                          "Differences between battery and a fuel cell",
+                                          "Construction and applications of Methanol Oxygen fuel cell and Solid oxide fuel cell"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Solar Cells",
+                                        "subtopics": [
+                                          "Introduction and applications of Solar cells"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Corrosion",
+                                        "subtopics": [
+                                          "Causes and effects of corrosion",
+                                          "Theories of chemical and electrochemical corrosion",
+                                          "Mechanism of electrochemical corrosion",
+                                          "Types of corrosion: Galvanic, water-line, and pitting corrosion",
+                                          "Factors affecting the rate of corrosion",
+                                          "Corrosion control methods: Cathodic protection – Sacrificial anode and impressed current methods"
+                                        ]
+                                      }
+                                    ],
+                                    "link": "./public/resources/1st Year/CH202-Unit2.pdf"
+
+                                  },
+                                  {
+                                    "name": "UNIT III: Polymeric Materials",
+                                    "code": "U3PM",
+                                    "info": [
+                                      {
+                                        "topic": "Polymeric Materials",
+                                        "subtopics": [
+                                          "Definition",
+                                          "Classification of polymers with examples",
+                                          "Types of polymerization: addition (free radical addition) and condensation polymerization with examples – Nylon 6:6, Terylene"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Plastics",
+                                        "subtopics": [
+                                          "Definition and characteristics",
+                                          "Thermoplastic and thermosetting plastics",
+                                          "Preparation, properties, and engineering applications of PVC and Bakelite, Teflon",
+                                          "Fiber reinforced plastics (FRP)"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Rubbers",
+                                        "subtopics": [
+                                          "Natural rubber and its vulcanization"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Elastomers",
+                                        "subtopics": [
+                                          "Characteristics",
+                                          "Preparation, properties, and applications of Buna-S, Butyl, and Thiokol rubber"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Conducting Polymers",
+                                        "subtopics": [
+                                          "Characteristics and Classification with examples",
+                                          "Mechanism of conduction in trans-polyacetylene",
+                                          "Applications of conducting polymers"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Biodegradable Polymers",
+                                        "subtopics": [
+                                          "Concept and advantages",
+                                          "Polylactic acid and poly vinyl alcohol and their applications"
+                                        ]
+                                      }
+                                    ],
+                                    "link": "./public/resources/1st Year/CH202-Unit3.pdf"
+                                  },
+                                  {
+                                    "name": "UNIT IV: Energy Sources",
+                                    "code": "U4ES",
+                                    "info": [
+                                      {
+                                        "topic": "Introduction",
+                                        "subtopics": [
+                                          "Calorific value of fuel – HCV, LCV- Dulongs formula"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Classification of Fuels",
+                                        "subtopics": [
+                                          "Solid fuels: coal – analysis of coal – proximate and ultimate analysis and their significance",
+                                          "Liquid fuels – petroleum and its refining, cracking types – moving bed catalytic cracking",
+                                          "Knocking – octane and cetane rating, synthetic petrol - Fischer-Tropsch’s process",
+                                          "Gaseous fuels – composition and uses of natural gas, LPG and CNG",
+                                          "Biodiesel – Transesterification, advantages"
+                                        ]
+                                      }
+                                    ],
+                                    "link": "./public/resources/1st Year/CH202-Unit4.pdf"
+                                  },
+                                  {
+                                    "name": "UNIT V: Engineering Materials",
+                                    "code": "U5EM",
+                                    "info": [
+                                      {
+                                        "topic": "Cement",
+                                        "subtopics": [
+                                          "Portland cement, its composition, setting, and hardening"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Smart Materials",
+                                        "subtopics": [
+                                          "Shape memory materials- Poly L- Lactic acid",
+                                          "Thermoresponse materials- Polyacryl amides, Poly vinyl amides"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Lubricants",
+                                        "subtopics": [
+                                          "Classification of lubricants with examples",
+                                          "Characteristics of good lubricants",
+                                          "Mechanism of lubrication (thick film, thin film, and extreme pressure)",
+                                          "Properties of lubricants: viscosity, cloud point, pour point, flash point, and fire point"
+                                        ]
+                                      }
+                                    ],
+                                    "link": "./public/resources/1st Year/CH202-Unit5.pdf"
+                                  }
+                                ],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Computer Aided Engineering Graphics",
+                                "code": "ME203ES",
+                                "info": [
+                                  {
+                                    "name": "UNIT I: Introduction to Engineering Graphics",
+                                    "code": "U1EG",
+                                    "info": [
+                                      {
+                                        "topic": "Introduction to Engineering Graphics",
+                                        "subtopics": [
+                                          "Principles of Engineering Graphics and their Significance",
+                                          "Scales – Plain & Diagonal",
+                                          "Conic Sections including the Rectangular Hyperbola – General method only",
+                                          "Cycloid, Epicycloid and Hypocycloid",
+                                          "Introduction to Computer-Aided Drafting – views, commands, and conics"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "UNIT II: Orthographic Projections",
+                                    "code": "U2OP",
+                                    "info": [
+                                      {
+                                        "topic": "Orthographic Projections",
+                                        "subtopics": [
+                                          "Principles of Orthographic Projections – Conventions",
+                                          "Projections of Points and Lines",
+                                          "Projections of Plane Regular Geometric Figures",
+                                          "Auxiliary Planes",
+                                          "Computer-Aided Orthographic Projections – points, lines, and planes"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "UNIT III: Projections of Regular Solids",
+                                    "code": "U3PRS",
+                                    "info": [
+                                      {
+                                        "topic": "Projections of Regular Solids",
+                                        "subtopics": [
+                                          "Auxiliary Views",
+                                          "Sections or Sectional views of Right Regular Solids – Prism, Cylinder, Pyramid, Cone",
+                                          "Auxiliary views",
+                                          "Computer-Aided Projections of Solids – sectional views"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "UNIT IV: Development of Surfaces of Right Regular Solids",
+                                    "code": "U4DSRRS",
+                                    "info": [
+                                      {
+                                        "topic": "Development of Surfaces",
+                                        "subtopics": [
+                                          "Prism",
+                                          "Cylinder",
+                                          "Pyramid",
+                                          "Cone"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Development of Surfaces using Computer-Aided Drafting",
+                                        "subtopics": []
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "UNIT V: Isometric Projections",
+                                    "code": "U5IP",
+                                    "info": [
+                                      {
+                                        "topic": "Isometric Projections",
+                                        "subtopics": [
+                                          "Principles of Isometric Projection",
+                                          "Isometric Scale",
+                                          "Isometric Views",
+                                          "Conventions",
+                                          "Isometric Views of Lines, Plane Figures, Simple and Compound Solids",
+                                          "Isometric Projection of objects having non-isometric lines",
+                                          "Isometric Projection of Spherical Parts",
+                                          "Conversion of Isometric Views to Orthographic Views and Vice-versa – Conventions"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  }
+                                ],
+                                "otherLinks": [
+                                    {"name": "EG Notes Complete", "link": "./public/resources/1st Year/EG-All-UNits.pdf"},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Basic Electrical Engineering",
+                                "code": "EE204ES",
+                                "info": [
+                                  {
+                                    "name": "UNIT I: D.C. Circuits",
+                                    "code": "U1DCC",
+                                    "info": [
+                                      {
+                                        "topic": "Electrical Circuit Elements",
+                                        "subtopics": [
+                                          "R, L and C",
+                                          "Voltage and Current Sources",
+                                          "KVL & KCL",
+                                          "Analysis of Simple Circuits with DC Excitation"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Circuit Analysis Techniques",
+                                        "subtopics": [
+                                          "Superposition",
+                                          "Thevenin and Norton Theorems",
+                                          "Time-domain Analysis of First-order RL and RC Circuits"
+                                        ]
+                                      }
+                                    ],
+                                    "link": "./public/resources/1st Year/BEE-Unit1.pdf"
+                                  },
+                                  
+                                  {
+                                    "name": "UNIT II: A.C. Circuits",
+                                    "code": "U2ACC",
+                                    "info": [
+                                      {
+                                        "topic": "Sinusoidal Waveforms",
+                                        "subtopics": [
+                                          "Representation",
+                                          "Peak and RMS Values",
+                                          "Phasor Representation",
+                                          "Real Power",
+                                          "Reactive Power",
+                                          "Apparent Power",
+                                          "Power Factor"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Analysis of Single-phase AC Circuits",
+                                        "subtopics": [
+                                          "R, L, C, RL, RC, RLC Combinations (Series and Parallel)",
+                                          "Resonance in Series R-L-C Circuit"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Three-phase Balanced Circuits",
+                                        "subtopics": [
+                                          "Voltage and Current Relations in Star and Delta Connections"
+                                        ]
+                                      }
+                                    ],
+                                    "link": "./public/resources/1st Year/BEE-Unit2.pdf"
+                                  },
+                                  
+                                  {
+                                    "name": "UNIT III: Transformers",
+                                    "code": "U3T",
+                                    "info": [
+                                      {
+                                        "topic": "Ideal and Practical Transformer",
+                                        "subtopics": [
+                                          "Equivalent Circuit",
+                                          "Losses in Transformers",
+                                          "Regulation and Efficiency"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Special Transformers",
+                                        "subtopics": [
+                                          "Auto-transformer",
+                                          "Three-phase Transformer Connections"
+                                        ]
+                                      }
+                                    ],
+                                    "link": "./public/resources/1st Year/BEE-Unit3.pdf"
+                                  },
+                                  {
+                                    "name": "UNIT IV: Electrical Machines",
+                                    "code": "U4EM",
+                                    "info": [
+                                      {
+                                        "topic": "DC Machines",
+                                        "subtopics": [
+                                          "Construction and Working Principle of DC Machine",
+                                          "Performance Characteristics of DC Shunt Machine"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Three-phase Induction Motor",
+                                        "subtopics": [
+                                          "Generation of Rotating Magnetic Field",
+                                          "Construction and Working",
+                                          "Significance of Torque-Slip Characteristics"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Single-phase Induction Motor",
+                                        "subtopics": [
+                                          "Construction and Working"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Synchronous Generator",
+                                        "subtopics": [
+                                          "Construction and Working"
+                                        ]
+                                      }
+                                    ],
+                                    "link": "./public/resources/1st Year/BEE-Unit4.pdf"
+                                  },
+                                  
+                                  {
+                                    "name": "UNIT V: Electrical Installations",
+                                    "code": "U5EI",
+                                    "info": [
+                                      {
+                                        "topic": "LT Switchgear",
+                                        "subtopics": [
+                                          "Components: Switch Fuse Unit (SFU), MCB, ELCB, MCCB"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Wires and Cables",
+                                        "subtopics": [
+                                          "Types"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Earthing",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Batteries",
+                                        "subtopics": [
+                                          "Types",
+                                          "Important Characteristics"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Elementary Calculations",
+                                        "subtopics": [
+                                          "Energy Consumption",
+                                          "Power Factor Improvement",
+                                          "Battery Backup"
+                                        ]
+                                      }
+                                    ],
+                                    "link": "./public/resources/1st Year/BEE-Unit5.pdf"
+                                  }
+                                  
+                                ],
+                                "otherLinks": [
+                                    {"name": "BEE Complete Notes", "link": "./public/resources/1st Year/BEE-All-Units.pdf"},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Electronic Devices and Circuits",
+                                "code": "EC205ES",
+                                "info": [
+                                  {
+                                    "name": "UNIT I: Diodes",
+                                    "code": "U1D",
+                                    "info": [
+                                      {
+                                        "topic": "Diode",
+                                        "subtopics": [
+                                          "Static and Dynamic Resistances",
+                                          "Equivalent Circuit",
+                                          "Diffusion and Transition Capacitances",
+                                          "V-I Characteristics",
+                                          "Diode as a Switch - Switching Times"
+                                        ]
+                                      }
+                                    ],
+                                    "link": "./public/resources/1st Year/EDC-Unit1.pdf"
+                                  },
+                                  
+                                  {
+                                    "name": "UNIT II: Diode Applications",
+                                    "code": "U2DA",
+                                    "info": [
+                                      {
+                                        "topic": "Rectifier",
+                                        "subtopics": [
+                                          "Half Wave Rectifier",
+                                          "Full Wave Rectifier",
+                                          "Bridge Rectifier",
+                                          "Rectifiers with Capacitive and Inductive Filters"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Clippers",
+                                        "subtopics": [
+                                          "Clipping at Two Independent Levels"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Clamper",
+                                        "subtopics": [
+                                          "Clamping Circuit Theorem",
+                                          "Clamping Operation",
+                                          "Types of Clampers"
+                                        ]
+                                      }
+                                    ],
+                                    "link": "./public/resources/1st Year/EDC-Unit2.pdf"
+                                  },
+                                  
+                                  {
+                                    "name": "UNIT III: Bipolar Junction Transistor (BJT)",
+                                    "code": "U3BJT",
+                                    "info": [
+                                      {
+                                        "topic": "Principle of Operation",
+                                        "subtopics": [
+                                          "Common Emitter",
+                                          "Common Base",
+                                          "Common Collector Configurations"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Transistor as a Switch",
+                                        "subtopics": [
+                                          "Switching Times"
+                                        ]
+                                      }
+                                    ],
+                                    "link": "./public/resources/1st Year/EDC-Unit3.pdf"
+                                  },
+                                  
+                                  {
+                                    "name": "UNIT IV: Junction Field Effect Transistor (FET)",
+                                    "code": "U4JFET",
+                                    "info": [
+                                      {
+                                        "topic": "Construction",
+                                        "subtopics": [
+                                          "Principle of Operation",
+                                          "Pinch-Off Voltage",
+                                          "Volt-Ampere Characteristic"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Comparison of BJT and FET",
+                                        "subtopics": [
+                                          "FET as Voltage Variable Resistor",
+                                          "MOSFET",
+                                          "MOSTET as a Capacitor"
+                                        ]
+                                      }
+                                    ],
+                                    "link": "./public/resources/1st Year/EDC-Unit4.pdf"
+                                  },
+                                  
+                                  {
+                                    "name": "UNIT V: Special Purpose Devices",
+                                    "code": "U5SPD",
+                                    "info": [
+                                      {
+                                        "topic": "Zener Diode",
+                                        "subtopics": [
+                                          "Characteristics",
+                                          "Zener Diode as Voltage Regulator",
+                                          "Principle of Operation"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Special Diodes",
+                                        "subtopics": [
+                                          "SCR",
+                                          "Tunnel Diode",
+                                          "UJT",
+                                          "Varactor Diode"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Optoelectronic Devices",
+                                        "subtopics": [
+                                          "Photo Diode",
+                                          "Solar Cell",
+                                          "LED"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Schottky Diode",
+                                        "subtopics": []
+                                      }
+                                    ],
+                                    "link": "./public/resources/1st Year/EDC-Unit5.pdf"
+                                  }
+                                  
+                                ],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            }
+
+                        ],
+                        "practicalSubjects": [
+                            {
+                                "subjectName": "Python Programming Laboratory",
+                                "code": "CS206ES",
+                                "info": [
+                                  {
+                                    "name": "Week - 1",
+                                    "code": "W-1",
+                                    "info": [
+                                      {
+                                        "topic": "Use a web browser to go to the Python website http://python.org. This page contains information about Python and links to Python-related pages, and it gives you the ability to search the Python documentation.",
+                                        "subtopics": [
+                                          "Start the Python interpreter and type help() to start the online help utility."
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Start a Python interpreter and use it as a Calculator."
+                                      },
+                                      {
+                                        "topic": "Write a program to calculate compound interest when principal, rate and the number of periods are given."
+                                      },
+                                      {
+                                        "topic": "Given coordinates (x1, y1), (x2, y2) find the distance between two points."
+                                      },
+                                      {
+                                        "topic": "Read name, address, email and phone number of a person through the keyboard and print the details."
+                                      }
+                                    ]
+                                  },
+                                    {
+                                      "name": "Week - 2",
+                                      "code": "W-2",
+                                      "info": [
+                                        {
+                                          "topic": "Print the below triangle using for loop.",
+                                          "subtopics": [
+                                            "5",
+                                            "4 4",
+                                            "3 3 3",
+                                            "2 2 2 2",
+                                            "1 1 1 1 1"
+                                          ]
+                                        },
+                                        {
+                                          "topic": "Write a program to check whether the given input is digit or lowercase character or uppercase character or a special character (use 'if-else-if' ladder)"
+                                        },
+                                        {
+                                          "topic": "Python Program to Print the Fibonacci sequence using while loop"
+                                        },
+                                        {
+                                          "topic": "Python program to print all prime numbers in a given interval (use break)"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "Week - 3",
+                                      "code": "W-3",
+                                      "info": [
+                                        {
+                                          "topic": "i) Write a program to convert a list and tuple into arrays.",
+                                          "subtopics": [
+                                            "ii) Write a program to find common values between two arrays."
+                                          ]
+                                        },
+                                        {
+                                          "topic": "Write a function called gcd that takes parameters a and b and returns their greatest common divisor."
+                                        },
+                                        {
+                                          "topic": "Write a function called palindrome that takes a string argument and returns True if it is a palindrome and False otherwise. Remember that you can use the built-in function len to check the length of a string."
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "Week - 4",
+                                      "code": "W-4",
+                                      "info": [
+                                        {
+                                          "topic": "Write a function called is_sorted that takes a list as a parameter and returns True if the list is sorted in ascending order and False otherwise."
+                                        },
+                                        {
+                                          "topic": "Write a function called has_duplicates that takes a list and returns True if there is any element that appears more than once. It should not modify the original list.",
+                                          "subtopics": [
+                                            "i). Write a function called remove_duplicates that takes a list and returns a new list with only the unique elements from the original. Hint: they don’t have to be in the same order.",
+                                            "ii). The wordlist I provided, words.txt, doesn’t contain single letter words. So you might want to add “I”, “a”, and the empty string.",
+                                            "iii). Write a python code to read dictionary values from the user. Construct a function to invert its content. i.e., keys should be values and values should be keys."
+                                          ]
+                                        },
+                                        {
+                                          "topic": "i) Add a comma between the characters. If the given word is 'Apple', it should become 'A,p,p,l,e'\n ii) Remove the given word in all the places in a string?\n iii) Write a function that takes a sentence as an input parameter and replaces the first letter of every word with the corresponding upper case letter and the rest of the letters in the word by corresponding letters in lower case without using a built-in function?"
+                                        },
+                                        {
+                                          "topic": "Writes a recursive function that generates all binary strings of n-bit length"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "Week - 5",
+                                      "code": "W-5",
+                                      "info": [
+                                        {
+                                          "topic": "i) Write a python program that defines a matrix and prints\nii) Write a python program to perform addition of two square matrices\niii) Write a python program to perform multiplication of two square matrices"
+                                        },
+                                        {
+                                          "topic": "How do you make a module? Give an example of construction of a module using different geometrical shapes and operations on them as its functions."
+                                        },
+                                        {
+                                          "topic": "Use the structure of exception handling all general purpose exceptions."
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "Week - 6",
+                                      "code": "W-6",
+                                      "info": [
+                                        {
+                                          "topic": "a. Write a function called draw_rectangle that takes a Canvas and a Rectangle as arguments and draws a representation of the Rectangle on the Canvas.\nb. Add an attribute named color to your Rectangle objects and modify draw_rectangle so that it uses the color attribute as the fill color.\nc. Write a function called draw_point that takes a Canvas and a Point as arguments and draws a representation of the Point on the Canvas.\nd. Define a new class called Circle with appropriate attributes and instantiate a few Circle objects. Write a function called draw_circle that draws circles on the canvas."
+                                        },
+                                        {
+                                          "topic": "Write a Python program to demonstrate the usage of Method Resolution Order (MRO) in multiple levels of Inheritances."
+                                        },
+                                        {
+                                          "topic": "Write a python code to read a phone number and email-id from the user and validate it for correctness."
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "Week - 7",
+                                      "code": "W-7",
+                                      "info": [
+                                        {
+                                          "topic": "Write a Python code to merge two given file contents into a third file."
+                                        },
+                                        {
+                                          "topic": "Write a Python code to open a given file and construct a function to check for given words present in it and display on found."
+                                        },
+                                        {
+                                          "topic": "Write a Python code to Read text from a text file, find the word with most number of occurrences"
+                                        },
+                                        {
+                                          "topic": "Write a function that reads a file file1 and displays the number of words, number of vowels, blank spaces, lower case letters and uppercase letters."
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "name": "Week - 8",
+                                      "code": "W-8",
+                                      "info": [
+                                        {
+                                          "topic": "Import numpy, Plotpy and Scipy and explore their functionalities."
+                                        },
+                                        {
+                                          "topic": "a) Install NumPy package with pip and explore it."
+                                        },
+                                        {
+                                          "topic": "Write a program to implement Digital Logic Gates – AND, OR, NOT, EX-OR"
+                                        },
+                                        {
+                                          "topic": "Write a program to implement Half Adder, Full Adder, and Parallel Adder"
+                                        },
+                                        {
+                                          "topic": "Write a GUI program to create a window wizard having two text labels, two text fields and two buttons as Submit and Reset."
+                                        }
+                                      ]
+                                    }
+                                ],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Engineering Chemistry Laboratory",
+                                "code": "CH207BS",
+                                "info": [
+                                  {
+                                    "name": "List of Experiments",
+                                    "code": "LE1",
+                                    "info": [
+                                      {
+                                        "topic": "Volumetric Analysis",
+                                        "subtopics": [
+                                          "Estimation of Hardness of water by EDTA Complexometry method."
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Conductometry",
+                                        "subtopics": [
+                                          "Estimation of the concentration of an acid by Conductometry."
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Potentiometry",
+                                        "subtopics": [
+                                          "Estimation of the amount of Fe+2 by Potentiometry."
+                                        ]
+                                      },
+                                      {
+                                        "topic": "pH Metry",
+                                        "subtopics": [
+                                          "Determination of an acid concentration using pH meter."
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Preparations",
+                                        "subtopics": [
+                                          "Preparation of Bakelite.",
+                                          "Preparation Nylon – 6."
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Lubricants",
+                                        "subtopics": [
+                                          "Estimation of acid value of given lubricant oil.",
+                                          "Estimation of Viscosity of lubricant oil using Ostwald’s Viscometer."
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Corrosion",
+                                        "subtopics": [
+                                          "Determination of rate of corrosion of mild steel in the presence and absence of inhibitor."
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Virtual Lab Experiments",
+                                        "subtopics": [
+                                          "Construction of Fuel cell and its working.",
+                                          "Smart materials for Biomedical applications.",
+                                          "Batteries for electrical vehicles.",
+                                          "Functioning of solar cell and its applications."
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Basic Electrical Engineering Laboratory",
+                                "code": "EE208ES",
+                                "info": [
+                                  {
+                                    "name": "List of experiments/demonstrations:",
+                                    "code": "EXP",
+                                    "info": [
+                                      {
+                                        "topic": "PART- A (compulsory)",
+                                        "subtopics": [
+                                          "Verification of KVL and KCL",
+                                          "Verification of Thevenin’s and Norton’s theorem",
+                                          "Transient Response of Series RL and RC circuits for DC excitation",
+                                          "Resonance in series RLC circuit",
+                                          "Calculations and Verification of Impedance and Current of RL, RC and RLC series circuits",
+                                          "Measurement of Voltage, Current and Real Power in primary and Secondary Circuits of a Single-Phase Transformer",
+                                          "Performance Characteristics of a DC Shunt Motor",
+                                          "Torque-Speed Characteristics of a Three-phase Induction Motor."
+                                        ]
+                                      },
+                                      {
+                                        "topic": "PART-B (any two experiments from the given list)",
+                                        "subtopics": [
+                                          "Verification of Superposition theorem",
+                                          "Three Phase Transformer: Verification of Relationship between Voltages and Currents (Star-Delta, Delta-Delta, Delta-star, Star-Star)",
+                                          "Load Test on Single Phase Transformer (Calculate Efficiency and Regulation)",
+                                          "Measurement of Active and Reactive Power in a balanced Three-phase circuit",
+                                          "No-Load Characteristics of a Three-phase Alternator"
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "IT Workshop",
+                                "code": "CS209ES",
+                                "info": [
+                                  {
+                                    "name": "PC Hardware",
+                                    "code": "PCH",
+                                    "info": [
+                                      {
+                                        "topic": "Identify the peripherals of a computer, components in a CPU and its functions. Draw the block diagram of the CPU along with the configuration of each peripheral and submit to your instructor."
+                                      },
+                                      {
+                                        "topic": "Every student should disassemble and assemble the PC back to working condition. Lab instructors should verify the work and follow it up with a Viva. Also, students need to go through the video which shows the process of assembling a PC. A video would be given as part of the course content."
+                                      },
+                                      {
+                                        "topic": "Every student should individually install MS Windows on the personal computer. Lab instructor should verify the installation and follow it up with a Viva."
+                                      },
+                                      {
+                                        "topic": "Every student should install Linux on the computer. This computer should have Windows installed. The system should be configured as dual boot with both Windows and Linux. Lab instructors should verify the installation and follow it up with a Viva."
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "Internet & World Wide Web",
+                                    "code": "IWWW",
+                                    "info": [
+                                      {
+                                        "topic": "Orientation & Connectivity Boot Camp: Students should get connected to their Local Area Network and access the Internet. In the process, they configure the TCP/IP setting. Finally, students should demonstrate, to the instructor, how to access the websites and email. If there is no internet connectivity, preparations need to be made by the instructors to simulate the WWW on the LAN."
+                                      },
+                                      {
+                                        "topic": "Web Browsers, Surfing the Web: Students customize their web browsers with the LAN proxy settings, bookmarks, search toolbars, and pop-up blockers. Also, plug-ins like Macromedia Flash and JRE for applets should be configured."
+                                      },
+                                      {
+                                        "topic": "Search Engines & Netiquette: Students should know what search engines are and how to use the search engines. A few topics would be given to the students for which they need to search on Google. This should be demonstrated to the instructors by the student."
+                                      },
+                                      {
+                                        "topic": "Cyber Hygiene: Students would be exposed to the various threats on the internet and would be asked to configure their computer to be safe on the internet. They need to customize their browsers to block pop-ups, block active x downloads to avoid viruses and/or worms."
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "LaTeX and WORD",
+                                    "code": "LW",
+                                    "info": [
+                                      {
+                                        "topic": "Word Orientation: The mentor needs to give an overview of LaTeX and Microsoft (MS) office or equivalent (FOSS) tool word: Importance of LaTeX and MS office or equivalent (FOSS) tool Word as word Processors, Details of the four tasks and features that would be covered in each, Using LaTeX and word – Accessing, overview of toolbars, saving files, Using help and resources, rulers, format painter in word."
+                                      },
+                                      {
+                                        "topic": "Using LaTeX and Word to create a project certificate. Features to be covered:- Formatting Fonts in word, Drop Cap in word, Applying Text effects, Using Character Spacing, Borders and Colors, Inserting Header and Footer, Using Date and Time option in both LaTeX and Word."
+                                      },
+                                      {
+                                        "topic": "Creating project abstract Features to be covered:-Formatting Styles, Inserting table, Bullets and Numbering, Changing Text Direction, Cell alignment, Footnote, Hyperlink, Symbols, Spell Check, Track Changes."
+                                      },
+                                      {
+                                        "topic": "Creating a Newsletter: Features to be covered:- Table of Content, Newspaper columns, Images from files and clipart, Drawing toolbar and Word Art, Formatting Images, Textboxes, Paragraphs and Mail Merge in word."
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "Excel",
+                                    "code": "EX",
+                                    "info": [
+                                      {
+                                        "topic": "Excel Orientation: The mentor needs to tell the importance of MS office or equivalent (FOSS) tool Excel as a Spreadsheet tool, give the details of the four tasks and features that would be covered in each. Using Excel – Accessing, overview of toolbars, saving excel files, Using help and resources."
+                                      },
+                                      {
+                                        "topic": "Task 1: Creating a Scheduler - Features to be covered: Gridlines, Format Cells, Summation, auto fill, Formatting Text"
+                                      },
+                                      {
+                                        "topic": "Task 2 : Calculating GPA - .Features to be covered:- Cell Referencing, Formulae in excel – average, std. deviation, Charts, Renaming and Inserting worksheets, Hyper linking, Count function, LOOKUP/VLOOKUP"
+                                      },
+                                      {
+                                        "topic": "Task 3: Split cells, freeze panes, group and outline, Sorting, Boolean and logical operators, Conditional formatting"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "PowerPoint",
+                                    "code": "PPT",
+                                    "info": [
+
+                                      {
+                                        "topic": "Task 1: Students will be working on basic power point utilities and tools which help them create basic powerpoint presentations. PPT Orientation, Slide Layouts, Inserting Text, Word Art, Formatting Text, Bullets and Numbering, Auto Shapes, Lines and Arrows in PowerPoint."
+                                      },
+                                      {
+                                        "topic": "Task 2: Interactive presentations - Hyperlinks, Inserting –Images, Clip Art, Audio, Video, Objects, Tables and Charts."
+                                      },
+                                      {
+                                        "topic": "Task 3: Master Layouts (slide, template, and notes), Types of views (basic, presentation, slide slotter, notes etc), and Inserting – Background, textures, Design Templates, Hidden slides."
+                                      }
+                                    ]
+                                  }
+                                  
+                                  
+                                  
+                                  
+                                ],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "year": "Year II",
+            "sems": [
+                {
+                    "sem": "Year II Sem I",
+                    "calender": "",
+                    "subjects": {
+                        "theorySubjects": [
+                            {
+                                "subjectName": "Mathematical and Statistical Foundations",
+                                "code": "MSF301",
+                                "info": [
+                                  {
+                                    "name": "UNIT I: Number Theory",
+                                    "code": "U1NT",
+                                    "info": [
+                                      {
+                                        "topic": "Greatest Common Divisors and Prime Factorization",
+                                        "subtopics": [
+                                          "Greatest common divisors",
+                                          "The Euclidean algorithm",
+                                          "The fundamental theorem of arithmetic",
+                                          "Factorization of integers",
+                                          "The Fermat numbers"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Congruences",
+                                        "subtopics": [
+                                          "Introduction to congruences",
+                                          "Linear congruences",
+                                          "The Chinese remainder theorem",
+                                          "Systems of linear congruences"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "UNIT II: Statistical Methods",
+                                    "code": "U2SM",
+                                    "info": [
+                                      {
+                                        "topic": "Simple Linear Regression and Correlation",
+                                        "subtopics": [
+                                          "Introduction to Linear Regression",
+                                          "The Simple Linear Regression Model",
+                                          "Least Squares and the Fitted Model",
+                                          "Properties of the Least Squares Estimators",
+                                          "Inferences Concerning the Regression Coefficients",
+                                          "Prediction",
+                                          "Simple Linear Regression Case Study"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Random Variables and Probability Distributions",
+                                        "subtopics": [
+                                          "Concept of a Random Variable",
+                                          "Discrete Probability Distributions",
+                                          "Continuous Probability Distributions",
+                                          "Statistical Independence",
+                                          "Discrete Probability Distributions: Binomial Distribution",
+                                          "Poisson Distribution"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "UNIT III: Probability Distributions and Sampling",
+                                    "code": "U3PDS",
+                                    "info": [
+                                      {
+                                        "topic": "Continuous Probability Distributions",
+                                        "subtopics": [
+                                          "Normal Distribution",
+                                          "Areas under the Normal Curve",
+                                          "Applications of the Normal Distribution",
+                                          "Normal Approximation to the Binomial"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Fundamental Sampling Distributions",
+                                        "subtopics": [
+                                          "Random Sampling",
+                                          "Sampling Distributions",
+                                          "Sampling Distribution of Means and the Central Limit Theorem",
+                                          "Sampling Distribution of S2",
+                                          "t–Distribution",
+                                          "F-Distribution"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "UNIT IV: Estimation & Tests of Hypotheses",
+                                    "code": "U4ETH",
+                                    "info": [
+                                      {
+                                        "topic": "Introduction to Statistical Inference",
+                                        "subtopics": ["Classical Methods of Estimation"]
+                                      },
+                                      {
+                                        "topic": "Estimation",
+                                        "subtopics": [
+                                          "Estimating the Mean",
+                                          "Standard Error of a Point Estimate",
+                                          "Prediction Intervals",
+                                          "Tolerance Limits",
+                                          "Estimating the Variance",
+                                          "Estimating a Proportion for Single Mean",
+                                          "Difference between Two Means",
+                                          "Between Two Proportions for Two Samples",
+                                          "Maximum Likelihood Estimation"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "UNIT V: Stochastic Processes and Markov Chains",
+                                    "code": "U5SPMC",
+                                    "info": [
+                                      {
+                                        "topic": "Introduction to Stochastic Processes",
+                                        "subtopics": [
+                                          "Markov Process",
+                                          "Transition Probability",
+                                          "Transition Probability Matrix"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Markov Chains",
+                                        "subtopics": [
+                                          "First Order and Higher Order Markov Process",
+                                          "n-Step Transition Probabilities",
+                                          "Steady State Condition",
+                                          "Markov Analysis"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  }
+                                ],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Data Structures",
+                                "code": "DS302",
+                                "info": [
+                                  {
+                                    "name": "UNIT I: Introduction to Data Structures",
+                                    "code": "U1DS",
+                                    "info": [
+                                      {
+                                        "topic": "Introduction to Data Structures",
+                                        "subtopics": [
+                                          "Abstract Data Types",
+                                          "Linear List – Singly Linked List Implementation",
+                                          "Insertion, Deletion, and Searching Operations on Linear List"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Stacks",
+                                        "subtopics": [
+                                          "Operations",
+                                          "Array and Linked Representations of Stacks",
+                                          "Stack Applications"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Queues",
+                                        "subtopics": [
+                                          "Operations",
+                                          "Array and Linked Representations"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "UNIT II: Dictionaries and Hash Table Representation",
+                                    "code": "U2DHT",
+                                    "info": [
+                                      {
+                                        "topic": "Dictionaries",
+                                        "subtopics": [
+                                          "Linear List Representation",
+                                          "Skip List Representation",
+                                          "Operations - Insertion, Deletion, and Searching"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Hash Table Representation",
+                                        "subtopics": [
+                                          "Hash Functions",
+                                          "Collision Resolution - Separate Chaining, Open Addressing - Linear Probing, Quadratic Probing, Double Hashing, Rehashing, Extendible Hashing"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "UNIT III: Search Trees",
+                                    "code": "U3ST",
+                                    "info": [
+                                      {
+                                        "topic": "Binary Search Trees",
+                                        "subtopics": [
+                                          "Definition",
+                                          "Implementation",
+                                          "Operations - Searching, Insertion, and Deletion"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "B-Trees and B+ Trees",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "AVL Trees",
+                                        "subtopics": [
+                                          "Definition",
+                                          "Height of an AVL Tree",
+                                          "Operations - Insertion, Deletion, and Searching"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Red–Black and Splay Trees",
+                                        "subtopics": []
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "UNIT IV: Graphs and Sorting",
+                                    "code": "U4GS",
+                                    "info": [
+                                      {
+                                        "topic": "Graphs",
+                                        "subtopics": [
+                                          "Graph Implementation Methods",
+                                          "Graph Traversal Methods"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Sorting",
+                                        "subtopics": [
+                                          "Quick Sort",
+                                          "Heap Sort",
+                                          "External Sorting - Model for External Sorting, Merge Sort"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "UNIT V: Pattern Matching and Tries",
+                                    "code": "U5PMT",
+                                    "info": [
+                                      {
+                                        "topic": "Pattern Matching Algorithms",
+                                        "subtopics": [
+                                          "Brute Force",
+                                          "The Boyer–Moore Algorithm",
+                                          "The Knuth-Morris-Pratt Algorithm"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Tries",
+                                        "subtopics": [
+                                          "Standard Tries",
+                                          "Compressed Tries",
+                                          "Suffix Tries"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  }
+                                ],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Computer Organization and Architecture",
+                                "code": "COA303",
+                                "info": [
+                                  {
+                                    "name": "UNIT I: Computer Organization and Design",
+                                    "code": "U1COD",
+                                    "info": [
+                                      {
+                                        "topic": "Digital Computers",
+                                        "subtopics": [
+                                          "Introduction",
+                                          "Block Diagram of Digital Computer",
+                                          "Definition of Computer Organization",
+                                          "Computer Design and Computer Architecture"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Register Transfer Language and Microoperations",
+                                        "subtopics": [
+                                          "Register Transfer Language",
+                                          "Register Transfer, Bus, and Memory Transfers",
+                                          "Arithmetic Microoperations",
+                                          "Logic Microoperations",
+                                          "Shift Microoperations",
+                                          "Arithmetic Logic Shift Unit"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Basic Computer Organization and Design",
+                                        "subtopics": [
+                                          "Instruction Codes",
+                                          "Computer Registers",
+                                          "Computer Instructions",
+                                          "Timing and Control",
+                                          "Instruction Cycle",
+                                          "Memory Reference Instructions",
+                                          "Input–Output and Interrupt"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "UNIT II: Microprogrammed Control and Central Processing Unit",
+                                    "code": "U2MCU",
+                                    "info": [
+                                      {
+                                        "topic": "Microprogrammed Control",
+                                        "subtopics": [
+                                          "Control Memory",
+                                          "Address Sequencing",
+                                          "Microprogram Example",
+                                          "Design of Control Unit"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Central Processing Unit",
+                                        "subtopics": [
+                                          "General Register Organization",
+                                          "Instruction Formats",
+                                          "Addressing Modes",
+                                          "Data Transfer and Manipulation",
+                                          "Program Control"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "UNIT III: Data Representation and Computer Arithmetic",
+                                    "code": "U3DRA",
+                                    "info": [
+                                      {
+                                        "topic": "Data Representation",
+                                        "subtopics": [
+                                          "Data Types",
+                                          "Complements",
+                                          "Fixed Point Representation",
+                                          "Floating Point Representation"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Computer Arithmetic",
+                                        "subtopics": [
+                                          "Addition and Subtraction",
+                                          "Multiplication Algorithms",
+                                          "Division Algorithms",
+                                          "Floating–Point Arithmetic Operations",
+                                          "Decimal Arithmetic Unit",
+                                          "Decimal Arithmetic Operations"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "UNIT IV: Input-Output Organization and Memory Organization",
+                                    "code": "U4IOO",
+                                    "info": [
+                                      {
+                                        "topic": "Input-Output Organization",
+                                        "subtopics": [
+                                          "Input-Output Interface",
+                                          "Asynchronous Data Transfer",
+                                          "Modes of Transfer",
+                                          "Priority Interrupt",
+                                          "Direct Memory Access"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Memory Organization",
+                                        "subtopics": [
+                                          "Memory Hierarchy",
+                                          "Main Memory",
+                                          "Auxiliary Memory",
+                                          "Associate Memory",
+                                          "Cache Memory"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "UNIT V: Reduced Instruction Set Computer, Pipeline and Vector Processing, Multi-Processors",
+                                    "code": "U5RIPC",
+                                    "info": [
+                                      {
+                                        "topic": "Reduced Instruction Set Computer",
+                                        "subtopics": [
+                                          "CISC Characteristics",
+                                          "RISC Characteristics"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Pipeline and Vector Processing",
+                                        "subtopics": [
+                                          "Parallel Processing",
+                                          "Pipelining",
+                                          "Arithmetic Pipeline",
+                                          "Instruction Pipeline",
+                                          "RISC Pipeline",
+                                          "Vector Processing",
+                                          "Array Processor"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Multi-Processors",
+                                        "subtopics": [
+                                          "Characteristics of Multiprocessors",
+                                          "Interconnection Structures",
+                                          "Interprocessor Arbitration",
+                                          "Interprocessor Communication and Synchronization",
+                                          "Cache Coherence"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  }
+                                ],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Software Engineering",
+                                "code": "SE304",
+                                "info": [
+                                  {
+                                    "name": "UNIT I: Introduction to Software Engineering and Process Models",
+                                    "code": "U1SE",
+                                    "info": [
+                                      {
+                                        "topic": "Introduction to Software Engineering",
+                                        "subtopics": [
+                                          "The Evolving Role of Software",
+                                          "Changing Nature of Software",
+                                          "Software Myths"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "A Generic View of Process",
+                                        "subtopics": [
+                                          "Software Engineering - A Layered Technology",
+                                          "A Process Framework",
+                                          "Capability Maturity Model Integration (CMMI)"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Process Models",
+                                        "subtopics": [
+                                          "The Waterfall Model",
+                                          "Spiral Model",
+                                          "Agile Methodology"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "UNIT II: Software Requirements and Requirements Engineering Process",
+                                    "code": "U2SE",
+                                    "info": [
+                                      {
+                                        "topic": "Software Requirements",
+                                        "subtopics": [
+                                          "Functional and Non-functional Requirements",
+                                          "User Requirements",
+                                          "System Requirements",
+                                          "Interface Specification",
+                                          "The Software Requirements Document"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Requirements Engineering Process",
+                                        "subtopics": [
+                                          "Feasibility Studies",
+                                          "Requirements Elicitation and Analysis",
+                                          "Requirements Validation",
+                                          "Requirements Management"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "UNIT III: Design Engineering and Creating an Architectural Design",
+                                    "code": "U3SE",
+                                    "info": [
+                                      {
+                                        "topic": "Design Engineering",
+                                        "subtopics": [
+                                          "Design Process and Design Quality",
+                                          "Design Concepts",
+                                          "The Design Model"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Creating an Architectural Design",
+                                        "subtopics": [
+                                          "Software Architecture",
+                                          "Data Design",
+                                          "Architectural Styles and Patterns",
+                                          "Architectural Design",
+                                          "Conceptual Model of UML",
+                                          "Basic Structural Modeling",
+                                          "Class Diagrams",
+                                          "Sequence Diagrams",
+                                          "Collaboration Diagrams",
+                                          "Use Case Diagrams",
+                                          "Component Diagrams"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "UNIT IV: Testing Strategies and Metrics for Process and Products",
+                                    "code": "U4SE",
+                                    "info": [
+                                      {
+                                        "topic": "Testing Strategies",
+                                        "subtopics": [
+                                          "A Strategic Approach to Software Testing",
+                                          "Test Strategies for Conventional Software",
+                                          "Black-box and White-box Testing",
+                                          "Validation Testing",
+                                          "System Testing",
+                                          "The Art of Debugging"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Metrics for Process and Products",
+                                        "subtopics": [
+                                          "Software Measurement",
+                                          "Metrics for Software Quality"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "UNIT V: Risk Management and Quality Management",
+                                    "code": "U5SE",
+                                    "info": [
+                                      {
+                                        "topic": "Risk Management",
+                                        "subtopics": [
+                                          "Reactive Vs Proactive Risk Strategies",
+                                          "Software Risks",
+                                          "Risk Identification",
+                                          "Risk Projection",
+                                          "Risk Refinement",
+                                          "RMMM"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Quality Management",
+                                        "subtopics": [
+                                          "Quality Concepts",
+                                          "Software Quality Assurance",
+                                          "Software Reviews",
+                                          "Formal Technical Reviews",
+                                          "Statistical Software Quality Assurance",
+                                          "Software Reliability",
+                                          "The ISO 9000 Quality Standards"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  }
+                                ],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Operating Systems",
+                                "code": "OS305",
+                                "info": [
+                                  {
+                                    "name": "UNIT I: Introduction to Operating Systems and Process Concepts",
+                                    "code": "U1OS",
+                                    "info": [
+                                      {
+                                        "topic": "Operating System - Introduction and Structures",
+                                        "subtopics": [
+                                          "Simple Batch",
+                                          "Multiprogrammed",
+                                          "Time-shared",
+                                          "Personal Computer",
+                                          "Parallel",
+                                          "Distributed Systems",
+                                          "Real-Time Systems"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "System Components and Operating System Services",
+                                        "subtopics": [
+                                          "Operating System Services",
+                                          "System Calls"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Process",
+                                        "subtopics": [
+                                          "Process Concepts and Scheduling",
+                                          "Operations on Processes",
+                                          "Cooperating Processes",
+                                          "Threads"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "UNIT II: CPU Scheduling, System Call Interface, and Deadlocks",
+                                    "code": "U2OS",
+                                    "info": [
+                                      {
+                                        "topic": "CPU Scheduling",
+                                        "subtopics": [
+                                          "Scheduling Criteria",
+                                          "Scheduling Algorithms",
+                                          "Multiple-Processor Scheduling"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "System Call Interface for Process Management",
+                                        "subtopics": [
+                                          "fork",
+                                          "exit",
+                                          "wait",
+                                          "waitpid",
+                                          "exec"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Deadlocks",
+                                        "subtopics": [
+                                          "System Model",
+                                          "Deadlocks Characterization",
+                                          "Methods for Handling Deadlocks",
+                                          "Deadlock Prevention",
+                                          "Deadlock Avoidance",
+                                          "Deadlock Detection and Recovery"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "UNIT III: Process Management, Synchronization, and Interprocess Communication",
+                                    "code": "U3OS",
+                                    "info": [
+                                      {
+                                        "topic": "Process Management and Synchronization",
+                                        "subtopics": [
+                                          "The Critical Section Problem",
+                                          "Synchronization Hardware",
+                                          "Semaphores and Classical Problems of Synchronization",
+                                          "Critical Regions",
+                                          "Monitors"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Interprocess Communication Mechanisms",
+                                        "subtopics": [
+                                          "IPC between Processes on a Single Computer System",
+                                          "IPC between Processes on Different Systems",
+                                          "Using Pipes, FIFOs, Message Queues, Shared Memory"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "UNIT IV: Memory Management and Virtual Memory",
+                                    "code": "U4OS",
+                                    "info": [
+                                      {
+                                        "topic": "Memory Management",
+                                        "subtopics": [
+                                          "Logical versus Physical Address Space",
+                                          "Swapping",
+                                          "Contiguous Allocation",
+                                          "Paging",
+                                          "Segmentation",
+                                          "Segmentation with Paging"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Virtual Memory",
+                                        "subtopics": [
+                                          "Demand Paging",
+                                          "Page Replacement",
+                                          "Page Replacement Algorithms"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  },
+                                  {
+                                    "name": "UNIT V: File System Interface, Operations, and Usage of System Calls",
+                                    "code": "U5OS",
+                                    "info": [
+                                      {
+                                        "topic": "File System Interface and Operations",
+                                        "subtopics": [
+                                          "Access Methods",
+                                          "Directory Structure",
+                                          "Protection",
+                                          "File System Structure",
+                                          "Allocation Methods",
+                                          "Free-Space Management"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Usage of System Calls",
+                                        "subtopics": [
+                                          "open",
+                                          "create",
+                                          "read",
+                                          "write",
+                                          "close",
+                                          "lseek",
+                                          "stat",
+                                          "ioctl"
+                                        ]
+                                      }
+                                    ],
+                                    "link": ""
+                                  }
+                                  
+                                                                  
+                                  
+                                  
+                                ],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Constitution of India",
+                                "code": "MC310",
+                                "info": [
+                                  {
+                                    "name": "Unit - 1: History of Making of the Indian Constitution",
+                                    "code": "U1HIC",
+                                    "info": [
+                                      {
+                                        "topic": "History of Drafting Committee"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "Unit - 2: Philosophy of the Indian Constitution",
+                                    "code": "U2PIC",
+                                    "info": [
+                                      {
+                                        "topic": "Preamble Salient Features"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "Unit - 3: Contours of Constitutional Rights & Duties",
+                                    "code": "U3CCRD",
+                                    "info": [
+                                      {
+                                        "topic": "Fundamental Rights",
+                                        "subtopics": [
+                                          "Right to Equality",
+                                          "Right to Freedom",
+                                          "Right against Exploitation",
+                                          "Right to Freedom of Religion",
+                                          "Cultural and Educational Rights",
+                                          "Right to Constitutional Remedies",
+                                          "Directive Principles of State Policy",
+                                          "Fundamental Duties"
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "Unit - 4: Organs of Governance",
+                                    "code": "U4OG",
+                                    "info": [
+                                      {
+                                        "topic": "Parliament",
+                                        "subtopics": [
+                                          "Composition",
+                                          "Qualifications and Disqualifications",
+                                          "Powers and Functions"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Executive",
+                                        "subtopics": [
+                                          "President",
+                                          "Governor",
+                                          "Council of Ministers"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Judiciary",
+                                        "subtopics": [
+                                          "Appointment and Transfer of Judges",
+                                          "Qualifications, Powers and Functions"
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "name": "Unit - 5: Local Administration",
+                                    "code": "U5LA",
+                                    "info": [
+                                      {
+                                        "topic": "District’s Administration",
+                                        "subtopics": [
+                                          "Role and Importance"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Municipalities",
+                                        "subtopics": [
+                                          "Introduction",
+                                          "Mayor and role of Elected Representative",
+                                          "CEO of Municipal Corporation"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Panchayat Raj",
+                                        "subtopics": [
+                                          "Introduction",
+                                          "PRI: Zila Panchayat",
+                                          "Elected officials and their roles",
+                                          "CEO Zila Panchayat: Position and role",
+                                          "Block level: Organizational Hierarchy (Different departments)",
+                                          "Village level: Role of Elected and Appointed officials",
+                                          "Importance of grassroots democracy"
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            }
+
+                        ],
+                        "practicalSubjects": [
+                            {
+                                "subjectName": "Introduction to Data Structures Lab",
+                                "code": "DSL306",
+                                "info": [
+                                  {
+                                    "name": "List of Experiments",
+                                    "code": "EXP",
+                                    "info":  [
+                                      {
+                                        "topic": "Write a program that uses functions to perform the following operations on singly linked list",
+                                        "subtopics": [
+                                          "Creation",
+                                          "Insertion",
+                                          "Deletion",
+                                          "Traversal"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Write a program that uses functions to perform the following operations on doubly linked list",
+                                        "subtopics": [
+                                          "Creation",
+                                          "Insertion",
+                                          "Deletion",
+                                          "Traversal"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Write a program that uses functions to perform the following operations on circular linked list",
+                                        "subtopics": [
+                                          "Creation",
+                                          "Insertion",
+                                          "Deletion",
+                                          "Traversal"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Write a program that implements stack (its operations) using",
+                                        "subtopics": [
+                                          "Arrays",
+                                          "Pointers"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Write a program that implements Queue (its operations) using",
+                                        "subtopics": [
+                                          "Arrays",
+                                          "Pointers"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Write a program that implements the following sorting methods to sort a given list of integers in ascending order",
+                                        "subtopics": [
+                                          "Quick sort",
+                                          "Heap sort",
+                                          "Merge sort"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Write a program to implement the tree traversal methods( Recursive and Non Recursive)",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Write a program to implement",
+                                        "subtopics": [
+                                          "Binary Search tree",
+                                          "B Trees",
+                                          "B+ Trees",
+                                          "AVL trees",
+                                          "Red - Black trees"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Write a program to implement the graph traversal methods",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Implement a Pattern matching algorithms using Boyer- Moore, Knuth-Morris-Pratt",
+                                        "subtopics": []
+                                      }
+                                    ]
+                                  }
+                                  
+                                ],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Operating Systems Lab",
+                                "code": "OSL307",
+                                "info": [
+                                  {
+                                    "name": "List of Experiments",
+                                    "code": "EXP",
+                                    "info": [
+                                      {
+                                        "topic": "Write C programs to simulate the following CPU Scheduling algorithms",
+                                        "subtopics": [
+                                          "FCFS",
+                                          "SJF",
+                                          "Round Robin",
+                                          "Priority"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Write programs using the I/O system calls of UNIX/LINUX operating system",
+                                        "subtopics": [
+                                          "Open",
+                                          "Read",
+                                          "Write",
+                                          "Close",
+                                          "Fcntl",
+                                          "Seek",
+                                          "Stat",
+                                          "Opendir",
+                                          "Readdir"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Write a C program to simulate Bankers Algorithm for Deadlock Avoidance and Prevention",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Write a C program to implement the Producer – Consumer problem using semaphores using UNIX/LINUX system calls",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Write C programs to illustrate the following IPC mechanisms",
+                                        "subtopics": [
+                                          "Pipes",
+                                          "FIFOs",
+                                          "Message Queues",
+                                          "Shared Memory"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Write C programs to simulate the following memory management techniques",
+                                        "subtopics": [
+                                          "Paging",
+                                          "Segmentation"
+                                        ]
+                                      },
+                                      {
+                                        "topic": "Write C programs to simulate Page replacement policies",
+                                        "subtopics": [
+                                          "FCFS",
+                                          "LRU",
+                                          "Optimal"
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                  
+                                ],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Software Engineering Lab",
+                                "code": "SEL308",
+                                "info": [
+                                  {
+                                    "name": "List of Experiments",
+                                    "code": "EXP",
+                                    "info": [
+                                      {
+                                        "topic": "Development of problem statements",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Preparation of Software Requirement Specification Document, Design Documents and Testing Phase related documents",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Preparation of Software Configuration Management and Risk Management related documents",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Study and usage of any Design phase CASE tool",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Performing the Design by using any Design phase CASE tools",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Develop test cases for unit testing and integration testing",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "Develop test cases for various white box and black box testing techniques",
+                                        "subtopics": []
+                                      },
+                                      {
+                                        "topic": "sampleProjects",
+                                        "subtopics": [
+                                          "Passport Automation System",
+                                          "Book Bank",
+                                          "Online Exam Registration",
+                                          "Stock Maintenance System",
+                                          "Online Course Reservation System",
+                                          "E-ticketing",
+                                          "Software Personnel Management System",
+                                          "Credit Card Processing",
+                                          "E-book Management System",
+                                          "Recruitment System"
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                  
+                                ],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Node JS/ React JS/ Django",
+                                "code": "NRD309",
+                                "info": [
+                                  {
+                                    "name": "Exercises",
+                                    "code": "EXP",
+                                    "info": [
+                                      {
+                                        "topic": "Build a responsive web application for shopping cart with registration, login, catalog and cart pages using CSS3 features, flex and grid"
+                                      },
+                                      {
+                                        "topic": "Make the above web application responsive using Bootstrap framework"
+                                      },
+                                      {
+                                        "topic": "Use JavaScript for doing client–side validation of the pages implemented in experiment 1 and experiment 2"
+                                      },
+                                      {
+                                        "topic": "Explore the features of ES6 like arrow functions, callbacks, promises, async/await. Implement an application for reading the weather information from openweathermap.org and display the information in the form of a graph on the web page"
+                                      },
+                                      {
+                                        "topic": "Develop a Java stand-alone application that connects with the database (Oracle / MySQL) and perform the CRUD operation on the database tables"
+                                      },
+                                      {
+                                        "topic": "Create an XML for the bookstore. Validate the same using both DTD and XSD"
+                                      },
+                                      {
+                                        "topic": "Design a controller with servlet that provides the interaction with the application developed in experiment 1 and the database created in experiment 5"
+                                      },
+                                      {
+                                        "topic": "Maintaining the transactional history of any user is very important. Explore the various session tracking mechanisms (Cookies, HTTP Session)"
+                                      },
+                                      {
+                                        "topic": "Create a custom server using http module and explore the other modules of Node.js like OS, path, event"
+                                      },
+                                      {
+                                        "topic": "Develop an Express web application that can interact with REST API to perform CRUD operations on student data. (Use Postman)"
+                                      },
+                                      {
+                                        "topic": "For the above application, create authorized endpoints using JWT (JSON Web Token)"
+                                      },
+                                      {
+                                        "topic": "Create a React application for the student management system having registration, login, contact, about pages and implement routing to navigate through these pages"
+                                      },
+                                      {
+                                        "topic": "Create a service in React that fetches the weather information from openweathermap.org and then display the current and historical weather information using graphical representation using chart.js"
+                                      },
+                                      {
+                                        "topic": "Create a TODO application in React with necessary components and deploy it into GitHub"
+                                      }
+                                    ]
+                                  }
+                                  
+                                ],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "sem": "Year II Sem II",
+                    "calender": "",
+                    "subjects": {
+                        "theorySubjects": [
+                            {
+                                "subjectName": "Discrete Mathematics",
+                                "code": "DM401",
                                 "info": [],
                                 "otherLinks": [
                                     {"name": "", "link": ""},
@@ -858,58 +3697,47 @@
                                 ]
                             },
                             {
-                                "subjectName": "Matrices and Calculus",
-                                "code": "MA1101",
-                                "info": [
-                                    {
-                                        "name": "UNIT 1 Number Theory",
-                                        "code": "U1",
-                                        "info": [
-                                            {
-                                                "topic": "",
-                                                "subtopics": [" ", ""
-                                                ]
-                                            }
-                                        ],
-                                        "link": "23.ewe"
-                                    }
-                                ],
+                                "subjectName": "Automata Theory and Compiler Design",
+                                "code": "ATC402",
+                                "info": [],
                                 "otherLinks": [
                                     {"name": "", "link": ""},
                                     {"name": "", "link": ""}
                                 ]
                             },
                             {
-                                "subjectName": "Programming for Problem Solving",
-                                "code": "CS103",
-                                "info": [
-                                    {
-                                        "name": "UNIT 1 Number Theory",
-                                        "code": "U1",
-                                        "info": [
-                                        ],
-                                        "link": "./public/resources/1st Year/AP101-Unit1.pdf"
-                                    }
-                                ],
+                                "subjectName": "Database Management Systems",
+                                "code": "DM403",
+                                "info": [],
                                 "otherLinks": [
                                     {"name": "", "link": ""},
                                     {"name": "", "link": ""}
                                 ]
                             },
                             {
-                                "subjectName": "English for Skill Enhancement",
-                                "code": "EN105",
+                                "subjectName": "Introduction to Artificial Intelligence",
+                                "code": "AI404",
+                                "info": [],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Object Oriented Programming through Java",
+                                "code": "OOPS405",
                                 "info": [],
                                 "otherLinks": [
                                     {"name": "", "link": ""},
                                     {"name": "", "link": ""}
                                 ]
                             }
+
                         ],
                         "practicalSubjects": [
                             {
-                                "subjectName": "Engineering Workshop",
-                                "code": "ME104",
+                                "subjectName": "Database Management Systems Lab",
+                                "code": "DML406",
                                 "info": [],
                                 "otherLinks": [
                                     {"name": "", "link": ""},
@@ -917,47 +3745,35 @@
                                 ]
                             },
                             {
-                                "subjectName": "Elements of Computer Science & Engineering",
-                                "code": "CS106",
-                                "info": [
-                                    {
-                                        "name": "UNIT 1 Number Theory",
-                                        "code": "U1",
-                                        "info": [
-                                            {
-                                                "topic": "",
-                                                "subtopics": [" ", ""
-                                                ]
-                                            }
-                                        ],
-                                        "link": "23.ewe"
-                                    }
-                                ],
+                                "subjectName": "Java Programming Lab",
+                                "code": "JPL407",
+                                "info": [],
                                 "otherLinks": [
                                     {"name": "", "link": ""},
                                     {"name": "", "link": ""}
                                 ]
                             },
                             {
-                                "subjectName": "Applied Physics Laboratory",
-                                "code": "PH107",
-                                "info": [
-                                    {
-                                        "name": "UNIT 1 Number Theory",
-                                        "code": "U1",
-                                        "info": [
-                                        ],
-                                        "link": "./public/resources/1st Year/AP101-Unit1.pdf"
-                                    }
-                                ],
+                                "subjectName": "Real-time Research Project/Field-Based Research Project",
+                                "code": "RRP408",
+                                "info": [],
                                 "otherLinks": [
                                     {"name": "", "link": ""},
                                     {"name": "", "link": ""}
                                 ]
                             },
                             {
-                                "subjectName": "Programming for Problem Solving Laboratory",
-                                "code": "CS108",
+                                "subjectName": "Prolog/ Lisp/ Pyswip",
+                                "code": "PLP409",
+                                "info": [],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Gender Sensitization Lab",
+                                "code": "GSL410",
                                 "info": [],
                                 "otherLinks": [
                                     {"name": "", "link": ""},

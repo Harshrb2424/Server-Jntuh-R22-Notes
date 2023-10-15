@@ -10,7 +10,7 @@
               </button>
             </h5>
           </div>
-          <div id="collapse-<%= subject.code %>" class="collapse" aria-labelledby="heading-<%= subject.code %>" data-parent="#accordion">
+          <div id="collapse-<%= subject.code %>" class="collapse" aria-labelledby="heading-<%= subject.code %>" data-parent="#accordion<%= acc %>">
             <div class="card-body">
 
               <% subject.info.forEach(units => { %>
@@ -19,7 +19,9 @@
                 <%- include('unitLinks.ejs', {link: units.link, code: subject.code, Ucode: units.code}) %>
                 <% }) %>
                 <br>
-                <h2>Other Resources</h2>
+                <% if (subject && subject.otherLinks[0].link) { %>
+                  <h2>Other Resources</h2>
+                <% } %>
                 <% subject.otherLinks.forEach(link => { %>
                  
                   <%- include('otherLinks.ejs', {link: link}) %>

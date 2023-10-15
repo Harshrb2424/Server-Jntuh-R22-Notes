@@ -7,16 +7,45 @@
 
       <!-- Add Bootstrap CSS via CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
-
+    <link rel="stylesheet" href="./public/styles.css">
   <!-- Add Bootstrap JavaScript and jQuery via CDN (for Bootstrap components that require JavaScript) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
+
+    <nav>
+        <div>
+          <img
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/JNTU_Hyderabad_logo.png/220px-JNTU_Hyderabad_logo.png"
+            alt="">
+          <h3>R22 CSE(AI&ML)</h3>
+        </div>
+        <p>We aim to provide a helpful and supplementary resource for educational purposes, but we do not claim to represent
+          or replace the official educational institution resources or its affiliations.</p>
+        <p>This page is dedicated to providing a seamless and user-friendly platform for effortless access to a
+          comprehensive repository of class notes meticulously tailored to the R22 Regulation curriculum, catering
+          specifically to students of JNTUH-affiliated colleges. Designed with utmost precision and organization, our
+          platform aims to simplify the academic journey by offering structured and easily searchable class notes, study
+          materials, and educational resources, all thoughtfully categorized to align with the R22 Regulation syllabus. With
+          a commitment to excellence and accessibility, we endeavor to empower students, educators, and academic enthusiasts
+          alike in their pursuit of knowledge within the realm of JNTUH's R22 Regulation, fostering a conducive environment
+          for learning and growth.</p>
+      </nav>
+
     <% data.years.forEach(year => { %>
      
         <%- include( 'year.ejs', {year: year} ) %>
     <% }) %>
+
+    <footer>
+        <br>
+        <p>We want to clarify that this page and the resources provided herein are not official or affiliated with JNTUH
+          (Jawaharlal Nehru Technological University Hyderabad) in any official capacity. While we strive to provide
+          accurate and valuable educational content, it's essential to note that this platform is independent and not
+          endorsed or recognized by JNTUH.</p>
+    
+      </footer>
 </body>
 </html>
