@@ -14,8 +14,6 @@ const app = express();
 const port = 3000;
 app.set('view engine', 'ejs');
 app.get("/", (req, res) => {
-    const d = new Date();
-    let day = d.getDay();
     res.render('index', {data: jsonData});
   });
 

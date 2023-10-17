@@ -1,8 +1,8 @@
-<% console.log(yr); %>
 <div class="collapse" id="collapse<%= yr %>">
     <div class="card card-body">
       <!-- ? Year 1 sub -->
       <h2><%= sem.sem %></h2>
+      <%- include('showimg.ejs', {sem: sem}) %>
       <h2>Theory Subjects</h2>
 
       <div id="accordion<%= sem.sem.replaceAll(' ', '-') %>">
@@ -15,7 +15,6 @@
       <div id="accordion<%= sem.sem.replaceAll(' ', '-') %>P">
         <% sem.subjects.practicalSubjects.forEach(subject => { %>
          <%- include('subject.ejs', {subject: subject, acc: sem.sem.replaceAll(' ', '-')+"P"}) %>
-            <% console.log(subject.code); %>
          <% }) %>
       </div>
     </div>

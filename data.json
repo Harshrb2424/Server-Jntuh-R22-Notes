@@ -2604,7 +2604,7 @@
       "sems": [
         {
           "sem": "Year II Sem I",
-          "calender": "",
+          "calender": "./public/resources/2nd Year/2.1-academic-calendar-2023-24.jpg",
           "subjects": {
             "theorySubjects": [
               {
@@ -3824,7 +3824,7 @@
         },
         {
           "sem": "Year II Sem II",
-          "calender": "",
+          "calender": "./public/resources/2nd Year/2.2-academic-calendar-2023-24.jpg",
           "subjects": {
             "theorySubjects": [
               {
