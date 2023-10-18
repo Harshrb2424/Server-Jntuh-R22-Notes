@@ -5,7 +5,7 @@
       "sems": [
         {
           "sem": "Year I Sem I",
-          "calender": "",
+          "calender": "./public/resources/1st Year/1.1-academic-calendar-2023-24.jpg",
           "subjects": {
             "theorySubjects": [
               {
@@ -1428,7 +1428,7 @@
         },
         {
           "sem": "Year I Sem II",
-          "calender": "",
+          "calender": "./public/resources/1st Year/1.2-academic-calendar-2023-24.jpg",
           "subjects": {
             "theorySubjects": [
               {
