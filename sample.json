@@ -1,0 +1,414 @@
+{
+    "years": [
+        {
+            "year": "Year I",
+            "sems": [
+                {
+                    "sem": "Sem I",
+                    "calender": "",
+                    "subjects": {
+                        "theorySubjects": [
+                            {
+                                "subjectName": "Matrices",
+                                "code": "CO101",
+                                "info": [
+                                    {
+                                        "name": "Unit-1",
+                                        "code": "U1",
+                                        "info": [
+                                          {
+                                            "topic": ""
+                                          },
+                                          {
+                                            "topic": "",
+                                            "subtopics": [
+                                            ]
+                                          }
+                                        ],
+                                        "link": "./public/resources/1st Year/Unit1.pdf"
+                                      },
+                                      {
+                                        "name": "Unit-2",
+                                        "code": "U2",
+                                        "info": [
+                                          {
+                                            "topic": "",
+                                            "subtopics": [
+                                            ]
+                                          }
+                                        ],
+                                        "link": "./public/resources/1st Year/Unit2.pdf"
+                                      }
+                                ],
+                                "otherLinks": [
+                                    {"name": "Bits Questions", "link": "./public/resources/1st Year/bits.pdf"},
+                                    {"name": "Importent Questions", "link": "./public/resources/1st Year/imp-questions.pdf"}
+                                ]
+                            },
+                            {
+                              "subjectName": "Physics",
+                              "code": "CO102",
+                              "info": [
+                                  {
+                                      "name": "Unit-1",
+                                      "code": "U1",
+                                      "info": [
+                                        {
+                                          "topic": ""
+                                        },
+                                        {
+                                          "topic": "",
+                                          "subtopics": [
+                                          ]
+                                        }
+                                      ],
+                                      "link": "./public/resources/1st Year/Unit1.pdf"
+                                    },
+                                    {
+                                      "name": "Unit-2",
+                                      "code": "U2",
+                                      "info": [
+                                        {
+                                          "topic": "",
+                                          "subtopics": [
+                                          ]
+                                        }
+                                      ],
+                                      "link": "./public/resources/1st Year/Unit2.pdf"
+                                    }
+                              ],
+                              "otherLinks": [
+                                  {"name": "Bits Questions", "link": "./public/resources/1st Year/bits.pdf"},
+                                  {"name": "Importent Questions", "link": "./public/resources/1st Year/imp-questions.pdf"}
+                              ]
+                          }
+                        ],
+                        "practicalSubjects": [
+                            {
+                                "subjectName": "Engineering Workshop",
+                                "code": "CO104",
+                                "info": [
+                                  {
+                                    "name": "Trades and Exercises",
+                                    "code": "TE",
+                                    "info": [
+                                      {
+                                        "topic": "Carpentry",
+                                        "subtopics": [
+                                          "T-Lap Joint",
+                                          "Mortise & Tenon Joint"
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            }
+                        ]
+                    }
+
+                },
+                {
+                    "sem": "Sem II",
+                    "calender": "",
+                    "subjects": {
+                        "theorySubjects": [
+                            {
+                                "subjectName": "Matrices",
+                                "code": "CO201",
+                                "info": [
+                                    {
+                                        "name": "Unit-1",
+                                        "code": "U1",
+                                        "info": [
+                                          {
+                                            "topic": ""
+                                          },
+                                          {
+                                            "topic": "",
+                                            "subtopics": [
+                                            ]
+                                          }
+                                        ],
+                                        "link": "./public/resources/1st Year/Unit1.pdf"
+                                      },
+                                      {
+                                        "name": "Unit-2",
+                                        "code": "U2",
+                                        "info": [
+                                          {
+                                            "topic": "",
+                                            "subtopics": [
+                                            ]
+                                          }
+                                        ],
+                                        "link": "./public/resources/1st Year/Unit2.pdf"
+                                      }
+                                ],
+                                "otherLinks": [
+                                    {"name": "Bits Questions", "link": "./public/resources/1st Year/bits.pdf"},
+                                    {"name": "Importent Questions", "link": "./public/resources/1st Year/imp-questions.pdf"}
+                                ]
+                            },
+                            {
+                              "subjectName": "Physics",
+                              "code": "CO202",
+                              "info": [
+                                  {
+                                      "name": "Unit-1",
+                                      "code": "U1",
+                                      "info": [
+                                        {
+                                          "topic": ""
+                                        },
+                                        {
+                                          "topic": "",
+                                          "subtopics": [
+                                          ]
+                                        }
+                                      ],
+                                      "link": "./public/resources/1st Year/Unit1.pdf"
+                                    },
+                                    {
+                                      "name": "Unit-2",
+                                      "code": "U2",
+                                      "info": [
+                                        {
+                                          "topic": "",
+                                          "subtopics": [
+                                          ]
+                                        }
+                                      ],
+                                      "link": "./public/resources/1st Year/Unit2.pdf"
+                                    }
+                              ],
+                              "otherLinks": [
+                                  {"name": "Bits Questions", "link": "./public/resources/1st Year/bits.pdf"},
+                                  {"name": "Importent Questions", "link": "./public/resources/1st Year/imp-questions.pdf"}
+                              ]
+                          }
+                        ],
+                        "practicalSubjects": [
+                            {
+                                "subjectName": "Engineering Workshop",
+                                "code": "CO104",
+                                "info": [
+                                  {
+                                    "name": "Trades and Exercises",
+                                    "code": "TE",
+                                    "info": [
+                                      {
+                                        "topic": "Carpentry",
+                                        "subtopics": [
+                                          "T-Lap Joint",
+                                          "Mortise & Tenon Joint"
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            }
+                        ]
+                    }
+
+                }
+            ]
+        },
+        {
+            "year": "Year II",
+            "sems": [
+                {
+                    "sem": "Sem I",
+                    "calender": "",
+                    "subjects": {
+                        "theorySubjects": [
+                            {
+                                "subjectName": "Ordinary Differential Equations and Vector Calculus",
+                                "code": "MA201BS",
+                                "info": [],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Engineering Chemistry",
+                                "code": "CH202BS",
+                                "info": [],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Computer Aided Engineering Graphics",
+                                "code": "ME203ES",
+                                "info": [],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Basic Electrical Engineering",
+                                "code": "EE204ES",
+                                "info": [],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Electronic Devices and Circuits",
+                                "code": "EC205ES",
+                                "info": [],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            }
+
+                        ],
+                        "practicalSubjects": [
+                            {
+                                "subjectName": "Python Programming Laboratory",
+                                "code": "CS206ES",
+                                "info": [],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Engineering Chemistry Laboratory",
+                                "code": "CH207BS",
+                                "info": [],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Basic Electrical Engineering Laboratory",
+                                "code": "EE208ES",
+                                "info": [],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "IT Workshop",
+                                "code": "CS209ES",
+                                "info": [],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "sem": "Sem II",
+                    "calender": "",
+                    "subjects": {
+                        "theorySubjects": [
+                            {
+                                "subjectName": "Ordinary Differential Equations and Vector Calculus",
+                                "code": "MA201BS",
+                                "info": [],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Engineering Chemistry",
+                                "code": "CH202BS",
+                                "info": [],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Computer Aided Engineering Graphics",
+                                "code": "ME203ES",
+                                "info": [],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Basic Electrical Engineering",
+                                "code": "EE204ES",
+                                "info": [],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Electronic Devices and Circuits",
+                                "code": "EC205ES",
+                                "info": [],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            }
+
+                        ],
+                        "practicalSubjects": [
+                            {
+                                "subjectName": "Python Programming Laboratory",
+                                "code": "CS206ES",
+                                "info": [],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Engineering Chemistry Laboratory",
+                                "code": "CH207BS",
+                                "info": [],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "Basic Electrical Engineering Laboratory",
+                                "code": "EE208ES",
+                                "info": [],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            },
+                            {
+                                "subjectName": "IT Workshop",
+                                "code": "CS209ES",
+                                "info": [],
+                                "otherLinks": [
+                                    {"name": "", "link": ""},
+                                    {"name": "", "link": ""}
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
