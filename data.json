@@ -566,8 +566,12 @@
                     "link": "./public/resources/1st Year/PPS-All-Units.pdf"
                   },
                   {
-                    "name": "",
-                    "link": ""
+                    "name": "PPS Sem 1 All Long Answers",
+                    "link": "./public/resources/1st Year/PPS-SEM-1-All-Answers.pdf"
+                  },
+                  {
+                    "name": "PPS Sem 1 All 1 Mark Answers",
+                    "link": "./public/resources/1st Year/PPS-SEM-1-1Mark-Answers.pdf"
                   }
                 ]
               },
@@ -2605,6 +2609,7 @@
         {
           "sem": "Year II Sem I",
           "calender": "./public/resources/2nd Year/2.1-academic-calendar-2023-24.jpg",
+          "syllabus": "./public/resources/2nd Year/CSM-2nd-Year-Syllabus.pdf",
           "subjects": {
             "theorySubjects": [
               {
@@ -3105,7 +3110,7 @@
                         ]
                       }
                     ],
-                    "link": "./public/resources/2nd Year/SE-Unit1.2.pdf"
+                    "link": "./public/resources/2nd Year/SE-Unit1.pdf"
                   },
                   {
                     "name": "UNIT II: Software Requirements and Requirements Engineering Process",

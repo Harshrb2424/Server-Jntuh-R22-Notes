@@ -14,3 +14,17 @@
         </div>
     </div>
     <% } %>
+<% if (sem.syllabus) { %>
+    <h4>Syllabus</h4>
+    <a class="btn btn-outline-info" data-toggle="collapse" href="#collapse-<%= sem.sem.replaceAll(' ', '-') %>-syllabus" role="button" aria-expanded="false"
+        aria-controls="collapse-<%= sem.sem.replaceAll(' ', '-') %>">
+        Show Syllabus
+    </a>
+
+    </p>
+    <div class="collapse" id="collapse-<%= sem.sem.replaceAll(' ', '-') %>-syllabus">
+        <div class="card card-body">
+            <iframe src="<%= sem.syllabus %>" width="50%" height="500"></iframe>
+        </div>
+    </div>
+    <% } %>
