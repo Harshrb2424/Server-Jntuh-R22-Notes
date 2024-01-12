@@ -1881,7 +1881,7 @@
                 "otherLinks": [
                   {
                     "name": "EG Notes Complete",
-                    "link": "./public/resources/1st Year/EG-All-UNits.pdf"
+                    "link": "./public/resources/1st Year/EG-All-Units.pdf"
                   },
                   {
                     "name": "",
@@ -2640,7 +2640,7 @@
                         ]
                       }
                     ],
-                    "link": ""
+                    "link": "./public/resources/2nd Year/MSF-Unit1.pdf"
                   },
                   {
                     "name": "UNIT II: Statistical Methods",
@@ -2670,7 +2670,7 @@
                         ]
                       }
                     ],
-                    "link": ""
+                    "link": "./public/resources/2nd Year/MSF-Unit2.pdf"
                   },
                   {
                     "name": "UNIT III: Probability Distributions and Sampling",
@@ -2697,7 +2697,7 @@
                         ]
                       }
                     ],
-                    "link": ""
+                    "link": "./public/resources/2nd Year/MSF-Unit3.pdf"
                   },
                   {
                     "name": "UNIT IV: Estimation & Tests of Hypotheses",
@@ -2816,7 +2816,7 @@
                         ]
                       }
                     ],
-                    "link": ""
+                    "link": "./public/resources/2nd Year/DS-Unit2.pdf"
                   },
                   {
                     "name": "UNIT III: Search Trees",
@@ -2847,7 +2847,7 @@
                         "subtopics": []
                       }
                     ],
-                    "link": ""
+                    "link": "./public/resources/2nd Year/DS-Unit3.pdf"
                   },
                   {
                     "name": "UNIT IV: Graphs and Sorting",
@@ -2869,7 +2869,7 @@
                         ]
                       }
                     ],
-                    "link": ""
+                    "link": "./public/resources/2nd Year/DS-Unit4.pdf"
                   },
                   {
                     "name": "UNIT V: Pattern Matching and Tries",
@@ -2892,13 +2892,13 @@
                         ]
                       }
                     ],
-                    "link": ""
+                    "link": "./public/resources/2nd Year/DS-Unit5.pdf"
                   }
                 ],
                 "otherLinks": [
                   {
-                    "name": "",
-                    "link": ""
+                    "name": "DS Unit 1 Alternative",
+                    "link": "./public/resources/2nd Year/DS-Unit1-alt.pdf"
                   },
                   {
                     "name": "",
@@ -2973,7 +2973,7 @@
                         ]
                       }
                     ],
-                    "link": ""
+                    "link": "./public/resources/2nd Year/COA-Unit2.pdf"
                   },
                   {
                     "name": "UNIT III: Data Representation and Computer Arithmetic",
@@ -3000,7 +3000,7 @@
                         ]
                       }
                     ],
-                    "link": ""
+                    "link": "./public/resources/2nd Year/COA-Unit3.pdf"
                   },
                   {
                     "name": "UNIT IV: Input-Output Organization and Memory Organization",
@@ -3027,7 +3027,7 @@
                         ]
                       }
                     ],
-                    "link": ""
+                    "link": "./public/resources/2nd Year/COA-Unit4.pdf"
                   },
                   {
                     "name": "UNIT V: Reduced Instruction Set Computer, Pipeline and Vector Processing, Multi-Processors",
@@ -3063,7 +3063,7 @@
                         ]
                       }
                     ],
-                    "link": ""
+                    "link": "./public/resources/2nd Year/COA-Unit5.pdf"
                   }
                 ],
                 "otherLinks": [
@@ -3227,8 +3227,8 @@
                 ],
                 "otherLinks": [
                   {
-                    "name": "",
-                    "link": ""
+                    "name": "SE-All-Units",
+                    "link": "./public/resources/2nd Year/SE-All-Units.pdf"
                   },
                   {
                     "name": "",
@@ -3396,12 +3396,16 @@
                 ],
                 "otherLinks": [
                   {
-                    "name": "",
-                    "link": ""
+                    "name": "OS Unit 1 Alternative",
+                    "link": "./public/resources/2nd Year/OS-Unit1-alt.pdf"
                   },
                   {
-                    "name": "",
-                    "link": ""
+                    "name": "OS Unit 2 Alternative",
+                    "link": "./public/resources/2nd Year/OS-Unit2-alt.pdf"
+                  },
+                  {
+                    "name": "OS Unit 3 Alternative",
+                    "link": "./public/resources/2nd Year/OS-Unit3-alt.pdf"
                   }
                 ]
               },
@@ -3819,8 +3823,8 @@
                     "link": "./public/resources/2nd Year/NRDL-html-handbook.pdf"
                   },
                   {
-                    "name": "",
-                    "link": ""
+                    "name": "NRDL Manual",
+                    "link": "./public/resources/2nd Year/NRDL-manual.pdf"
                   }
                 ]
               }
